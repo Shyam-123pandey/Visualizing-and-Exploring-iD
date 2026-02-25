@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-horizontal_bar",
+    "geometry": [
+        "point",
+        "line",
+        "area"
+    ],
+    "terms": [
+        "chin-up bar",
+        "high bar",
+        "pull-up bar"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "horizontal_bar"
+    },
+    "name": "Play Horizontal Bar"
+}

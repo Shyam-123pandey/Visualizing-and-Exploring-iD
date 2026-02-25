@@ -1,0 +1,24 @@
+{
+    "icon": "maki-gift",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "present",
+        "tourist trap"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "gift"
+    },
+    "name": "Gift Shop",
+    "aliases": [
+        "Souvenir Shop"
+    ]
+}

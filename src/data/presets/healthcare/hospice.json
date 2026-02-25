@@ -1,0 +1,21 @@
+{
+    "icon": "fas-procedures",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "illness",
+        "terminal"
+    ],
+    "fields": [
+        "{healthcare}"
+    ],
+    "moreFields": [
+        "{healthcare}"
+    ],
+    "tags": {
+        "healthcare": "hospice"
+    },
+    "name": "Hospice"
+}

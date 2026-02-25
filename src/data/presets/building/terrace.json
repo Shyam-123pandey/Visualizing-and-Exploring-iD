@@ -1,0 +1,28 @@
+{
+    "icon": "temaki-row_houses",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "terrace"
+    },
+    "terms": [
+        "brownstone",
+        "dwelling",
+        "family",
+        "home",
+        "residence",
+        "row home",
+        "row house",
+        "terrace",
+        "townhome"
+    ],
+    "matchScore": 0.5,
+    "name": "Row of Townhouses"
+}

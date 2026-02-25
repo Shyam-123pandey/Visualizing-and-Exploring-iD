@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-military",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "armor",
+        "army surplus",
+        "army-navy store",
+        "navy surplus",
+        "tactical gear",
+        "war surplus shop",
+        "weapons"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "military_surplus"
+    },
+    "name": "Military Surplus Store"
+}

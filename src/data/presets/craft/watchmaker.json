@@ -1,0 +1,17 @@
+{
+    "icon": "maki-watch",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "watchmaker"
+    },
+    "name": "Watchmaker"
+}

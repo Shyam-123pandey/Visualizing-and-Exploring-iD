@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-plumber",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "pipe"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "plumber"
+    },
+    "name": "Plumber"
+}

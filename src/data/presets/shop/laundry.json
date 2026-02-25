@@ -1,0 +1,18 @@
+{
+    "icon": "temaki-laundry",
+    "fields": [
+        "{shop}",
+        "self_service"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "shop": "laundry"
+    },
+    "name": "Laundry"
+}

@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-scaffold",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "scaffolder"
+    },
+    "name": "Scaffolder"
+}

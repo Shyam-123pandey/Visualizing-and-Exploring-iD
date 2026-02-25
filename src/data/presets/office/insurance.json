@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-briefcase_shield",
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "branch_brand",
+        "brand",
+        "{office}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "office": "insurance"
+    },
+    "terms": [
+        "actuary",
+        "insurer",
+        "risk management"
+    ],
+    "name": "Insurance Office"
+}

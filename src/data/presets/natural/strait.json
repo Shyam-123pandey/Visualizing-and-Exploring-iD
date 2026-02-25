@@ -1,0 +1,23 @@
+{
+    "icon": "iD-waterway-river",
+    "geometry": [
+        "point",
+        "line",
+        "area"
+    ],
+    "fields": [
+        "name"
+    ],
+    "moreFields": [
+        "{natural}"
+    ],
+    "tags": {
+        "natural": "strait"
+    },
+    "terms": [
+        "channel",
+        "pass",
+        "passage"
+    ],
+    "name": "Strait"
+}

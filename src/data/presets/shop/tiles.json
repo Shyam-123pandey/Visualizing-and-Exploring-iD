@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-tiling",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "tiles"
+    },
+    "name": "Tile Shop"
+}

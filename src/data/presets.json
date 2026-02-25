@@ -1,0 +1,13 @@
+[
+  {
+    "id": "amenity/food",
+    "fields": ["name"],
+    "tags": { "amenity": "food" }
+  },
+  {
+    "id": "amenity/restaurant",
+    "extends": "amenity/food",
+    "fields": ["cuisine"],
+    "tags": { "amenity": "restaurant" }
+  }
+]

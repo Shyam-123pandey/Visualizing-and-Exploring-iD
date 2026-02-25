@@ -1,0 +1,28 @@
+{
+    "icon": "temaki-ice_fishing",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "fishing"
+    },
+    "terms": [
+        "bait",
+        "fishing line",
+        "flies",
+        "fly",
+        "hobby",
+        "lure",
+        "reel",
+        "rod",
+        "tackle"
+    ],
+    "name": "Fishing Shop"
+}

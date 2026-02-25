@@ -1,0 +1,27 @@
+{
+    "icon": "maki-ferry",
+    "fields": [
+        "{attraction}"
+    ],
+    "moreFields": [
+        "{attraction}",
+        "max_age",
+        "min_age"
+    ],
+    "geometry": [
+        "point",
+        "line"
+    ],
+    "terms": [
+        "aquatic park",
+        "rafting simulator",
+        "river rafting ride",
+        "river rapids ride",
+        "theme park",
+        "water park"
+    ],
+    "tags": {
+        "attraction": "river_rafting"
+    },
+    "name": "River Rapids Ride"
+}

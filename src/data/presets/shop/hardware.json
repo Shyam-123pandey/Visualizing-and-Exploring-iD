@@ -1,0 +1,28 @@
+{
+    "icon": "temaki-tools",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "hardware"
+    },
+    "terms": [
+        "craft",
+        "diy",
+        "do it yourself",
+        "hardware",
+        "home improvement",
+        "tools"
+    ],
+    "name": "Hardware Store",
+    "aliases": [
+        "Hardware Shop"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "icon": "temaki-pedestrian",
+    "fields": [
+        "name",
+        "conveying",
+        "access_simple",
+        "lit",
+        "width",
+        "wheelchair"
+    ],
+    "moreFields": [
+        "{highway/footway}"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "terms": [
+        "autwalk",
+        "conveyor",
+        "moving sidewalk",
+        "skywalk",
+        "travelator",
+        "travellator",
+        "travolator"
+    ],
+    "tags": {
+        "highway": "footway",
+        "conveying": "*"
+    },
+    "reference": {
+        "key": "conveying"
+    },
+    "name": "Moving Walkway"
+}

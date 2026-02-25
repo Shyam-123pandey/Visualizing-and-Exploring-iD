@@ -1,0 +1,31 @@
+{
+    "icon": "maki-shoe",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "name",
+        "shoes",
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "shoes"
+    },
+    "terms": [
+        "boots",
+        "cleats",
+        "clogs",
+        "footwear",
+        "heels",
+        "loafers",
+        "oxfords",
+        "sandals",
+        "slippers",
+        "sneakers"
+    ],
+    "name": "Shoe Store"
+}

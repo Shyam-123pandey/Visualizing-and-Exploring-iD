@@ -1,0 +1,25 @@
+{
+    "icon": "maki-rail-metro",
+    "fields": [
+        "{attraction}",
+        "building_area_yes"
+    ],
+    "moreFields": [
+        "{attraction}",
+        "max_age",
+        "min_age"
+    ],
+    "geometry": [
+        "point",
+        "line",
+        "area"
+    ],
+    "terms": [
+        "ghost train",
+        "theme park"
+    ],
+    "tags": {
+        "attraction": "dark_ride"
+    },
+    "name": "Dark Ride"
+}

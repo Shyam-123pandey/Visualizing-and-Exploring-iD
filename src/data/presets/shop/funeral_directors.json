@@ -1,0 +1,27 @@
+{
+    "icon": "maki-cemetery",
+    "fields": [
+        "{shop}",
+        "religion",
+        "denomination"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "memorial home",
+        "mortuary",
+        "undertaker"
+    ],
+    "tags": {
+        "shop": "funeral_directors"
+    },
+    "name": "Funeral Home",
+    "aliases": [
+        "Funeral Parlor"
+    ]
+}

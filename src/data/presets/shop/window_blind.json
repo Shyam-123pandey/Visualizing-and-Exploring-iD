@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-window",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "window_blind"
+    },
+    "name": "Window Blind Store"
+}

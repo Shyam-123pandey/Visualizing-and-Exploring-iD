@@ -1,0 +1,28 @@
+{
+    "icon": "temaki-kerb-flush",
+    "geometry": [
+        "vertex",
+        "line"
+    ],
+    "fields": [
+        "{barrier/kerb}"
+    ],
+    "moreFields": [
+        "{barrier/kerb}"
+    ],
+    "tags": {
+        "barrier": "kerb",
+        "kerb": "flush"
+    },
+    "reference": {
+        "key": "kerb",
+        "value": "flush"
+    },
+    "terms": [
+        "even curb",
+        "level curb",
+        "tactile curb"
+    ],
+    "matchScore": 0.55,
+    "name": "Flush Curb"
+}

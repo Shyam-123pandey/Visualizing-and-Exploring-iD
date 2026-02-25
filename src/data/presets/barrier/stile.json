@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-stile_squeezer",
+    "fields": [
+        "access",
+        "stile",
+        "material"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "barrier": "stile"
+    },
+    "removeTags": {
+        "barrier": "stile",
+        "stile": "*"
+    },
+    "name": "Stile"
+}

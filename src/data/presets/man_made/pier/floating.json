@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-pier_floating",
+    "geometry": [
+        "line",
+        "area"
+    ],
+    "terms": [
+        "berth",
+        "dock",
+        "jetty",
+        "landing",
+        "promenade",
+        "wharf"
+    ],
+    "fields": [
+        "{man_made/pier}"
+    ],
+    "moreFields": [
+        "{man_made/pier}"
+    ],
+    "tags": {
+        "man_made": "pier",
+        "floating": "yes"
+    },
+    "name": "Floating Pier"
+}

@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-social_facility",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{amenity/social_facility}"
+    ],
+    "moreFields": [
+        "{amenity/social_facility}"
+    ],
+    "tags": {
+        "amenity": "social_facility",
+        "social_facility": "food_bank"
+    },
+    "reference": {
+        "key": "social_facility",
+        "value": "food_bank"
+    },
+    "terms": [
+        "food pantry",
+        "soup kitchen"
+    ],
+    "name": "Food Bank"
+}

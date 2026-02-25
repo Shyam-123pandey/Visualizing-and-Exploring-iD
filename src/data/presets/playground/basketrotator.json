@@ -1,0 +1,19 @@
+{
+    "icon": "maki-playground",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "basketrotator"
+    },
+    "name": "Basket Spinner",
+    "aliases": [
+        "Basket Rotator"
+    ]
+}

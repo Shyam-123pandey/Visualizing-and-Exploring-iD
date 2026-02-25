@@ -1,0 +1,17 @@
+{
+    "icon": "maki-entrance-alt1",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "entrance"
+    },
+    "name": "Entrance / Exit",
+    "searchable": false
+}

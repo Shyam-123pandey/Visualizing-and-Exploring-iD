@@ -1,0 +1,15 @@
+{
+    "type": "structureRadio",
+    "keys": [
+        "tunnel",
+        "bridge"
+    ],
+    "label": "Structure",
+    "placeholder": "Unknown",
+    "strings": {
+        "options": {
+            "tunnel": "Tunnel",
+            "bridge": "Bridge"
+        }
+    }
+}

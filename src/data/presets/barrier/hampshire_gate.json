@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-gate",
+    "fields": [
+        "access"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "barrier": "hampshire_gate"
+    },
+    "terms": [
+        "hampshire gate",
+        "new zealand gate"
+    ],
+    "name": "Wire Gate"
+}

@@ -1,0 +1,19 @@
+{
+    "icon": "temaki-x_oblique",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "{railway}"
+    ],
+    "tags": {
+        "railway": "railway_crossing"
+    },
+    "terms": [
+        "diamond crossing",
+        "flat crossing",
+        "level junction",
+        "railway railway crossing"
+    ],
+    "name": "Railway-Railway Crossing"
+}

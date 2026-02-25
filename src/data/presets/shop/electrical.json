@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-power",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "cable",
+        "electric",
+        "fan",
+        "led",
+        "lighting",
+        "power",
+        "wire"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "electrical"
+    },
+    "name": "Electrical Equipment Store"
+}

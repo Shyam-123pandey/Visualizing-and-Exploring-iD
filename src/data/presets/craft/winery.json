@@ -1,0 +1,19 @@
+{
+    "icon": "maki-alcohol-shop",
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}",
+        "fhrs/id-GB",
+        "min_age"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "craft": "winery"
+    },
+    "name": "Winery"
+}

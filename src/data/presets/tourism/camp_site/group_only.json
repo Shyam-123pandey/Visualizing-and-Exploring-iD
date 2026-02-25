@@ -1,0 +1,31 @@
+{
+    "icon": "maki-campsite",
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "fields": [
+        "{tourism/camp_site}"
+    ],
+    "moreFields": [
+        "{tourism/camp_site}"
+    ],
+    "tags": {
+        "tourism": "camp_site",
+        "group_only": "yes"
+    },
+    "reference": {
+        "key": "group_only"
+    },
+    "terms": [
+        "camp ground",
+        "camp pitch",
+        "camp site",
+        "campground",
+        "campsite",
+        "scout camping",
+        "youth camping"
+    ],
+    "name": "Group Camping Area"
+}

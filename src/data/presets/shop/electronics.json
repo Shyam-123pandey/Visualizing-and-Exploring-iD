@@ -1,0 +1,34 @@
+{
+    "icon": "fas-plug",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "appliance",
+        "audio",
+        "blueray",
+        "camera",
+        "computer",
+        "consumer electronics",
+        "dvd",
+        "gadgets",
+        "home theater",
+        "phone",
+        "radio",
+        "smartphone",
+        "speaker",
+        "tv",
+        "video"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "electronics"
+    },
+    "name": "Electronics Store"
+}

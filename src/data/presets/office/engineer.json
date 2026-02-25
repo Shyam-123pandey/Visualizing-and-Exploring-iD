@@ -1,0 +1,26 @@
+{
+    "icon": "fas-pen-ruler",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "tags": {
+        "office": "engineer"
+    },
+    "terms": [
+        "civil engineer",
+        "electrical engineer",
+        "engineer",
+        "engineering firm",
+        "mechanical engineer",
+        "structural engineer",
+        "technical engineer"
+    ],
+    "name": "Engineering Office"
+}

@@ -1,0 +1,30 @@
+{
+    "icon": "temaki-town_hall",
+    "fields": [
+        "{office}",
+        "operator"
+    ],
+    "moreFields": [
+        "{office/government}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "birth",
+        "certificate",
+        "clerk",
+        "death",
+        "marriage"
+    ],
+    "tags": {
+        "office": "government",
+        "government": "register_office"
+    },
+    "reference": {
+        "key": "government",
+        "value": "register_office"
+    },
+    "name": "Register Office"
+}

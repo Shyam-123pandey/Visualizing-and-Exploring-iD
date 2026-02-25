@@ -1,0 +1,18 @@
+{
+    "icon": "iD-restriction-no-straight-on",
+    "geometry": [
+        "relation"
+    ],
+    "fields": [
+        "{type/restriction}"
+    ],
+    "tags": {
+        "type": "restriction",
+        "restriction": "no_straight_on"
+    },
+    "reference": {
+        "key": "restriction",
+        "value": "no_straight_on"
+    },
+    "name": "No Straight Ahead"
+}

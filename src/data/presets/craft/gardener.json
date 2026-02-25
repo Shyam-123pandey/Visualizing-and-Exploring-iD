@@ -1,0 +1,21 @@
+{
+    "icon": "maki-garden-centre",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "grounds keeper",
+        "landscaper"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "gardener"
+    },
+    "name": "Gardener"
+}

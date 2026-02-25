@@ -1,0 +1,20 @@
+{
+    "icon": "fas-dungeon",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "{barrier}"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "tags": {
+        "barrier": "sally_port"
+    },
+    "terms": [
+        "castle side gate",
+        "postern"
+    ],
+    "name": "Sally Port"
+}

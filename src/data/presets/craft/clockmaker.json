@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-clock",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "clockmaker"
+    },
+    "name": "Clockmaker"
+}

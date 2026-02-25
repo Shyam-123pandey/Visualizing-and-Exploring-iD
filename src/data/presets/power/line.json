@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-power_tower",
+    "fields": [
+        "name",
+        "operator",
+        "voltage",
+        "cables",
+        "ref",
+        "layer"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "terms": [
+        "electric power transmission line",
+        "high tension line",
+        "high voltage line"
+    ],
+    "tags": {
+        "power": "line"
+    },
+    "name": "Power Line"
+}

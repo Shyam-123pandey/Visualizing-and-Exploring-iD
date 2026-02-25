@@ -1,0 +1,36 @@
+{
+    "icon": "maki-fuel",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "fields": [
+        "ref",
+        "fuel/fuel_multi",
+        "fuel/fuel_multi-RU",
+        "operator"
+    ],
+    "moreFields": [
+        "{amenity/vending_machine}"
+    ],
+    "terms": [
+        "biodiesel",
+        "cng",
+        "diesel",
+        "fuel",
+        "gasoline",
+        "lng",
+        "petrol",
+        "propane"
+    ],
+    "tags": {
+        "amenity": "vending_machine",
+        "vending": "fuel"
+    },
+    "reference": {
+        "key": "vending",
+        "value": "fuel"
+    },
+    "name": "Gas Vending Machine",
+    "matchScore": 0.5
+}

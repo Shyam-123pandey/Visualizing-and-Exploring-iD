@@ -1,0 +1,23 @@
+{
+    "icon": "maki-castle",
+    "fields": [
+        "name",
+        "building_area_yes",
+        "historic/civilization",
+        "start_date"
+    ],
+    "moreFields": [
+        "{historic}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "historic": "city_gate"
+    },
+    "terms": [
+        "town gate"
+    ],
+    "name": "City Gate"
+}

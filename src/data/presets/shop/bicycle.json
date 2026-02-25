@@ -1,0 +1,30 @@
+{
+    "icon": "maki-bicycle",
+    "fields": [
+        "{shop}",
+        "service/bicycle"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "bicycle store",
+        "bike",
+        "bike store",
+        "hobby",
+        "repair",
+        "tricycle",
+        "unicycle"
+    ],
+    "tags": {
+        "shop": "bicycle"
+    },
+    "aliases": [
+        "Bike Shop"
+    ],
+    "name": "Bicycle Shop"
+}

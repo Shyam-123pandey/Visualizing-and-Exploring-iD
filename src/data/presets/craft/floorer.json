@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-brick_trowel",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "floorer"
+    },
+    "name": "Floorer"
+}

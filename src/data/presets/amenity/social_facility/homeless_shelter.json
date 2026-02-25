@@ -1,0 +1,28 @@
+{
+    "icon": "temaki-social_facility",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "displaced",
+        "houseless",
+        "unhoused"
+    ],
+    "fields": [
+        "{amenity/social_facility}"
+    ],
+    "moreFields": [
+        "{amenity/social_facility}"
+    ],
+    "tags": {
+        "amenity": "social_facility",
+        "social_facility": "shelter",
+        "social_facility:for": "homeless"
+    },
+    "reference": {
+        "key": "social_facility",
+        "value": "shelter"
+    },
+    "name": "Homeless Shelter"
+}

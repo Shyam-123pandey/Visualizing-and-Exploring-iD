@@ -1,0 +1,22 @@
+{
+    "icon": "fas-cheese",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "cheese",
+        "egg",
+        "milk"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "dairy"
+    },
+    "name": "Dairy Store"
+}

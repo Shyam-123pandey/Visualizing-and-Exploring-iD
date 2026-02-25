@@ -1,0 +1,41 @@
+{
+    "icon": "maki-doctor",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "computed tomography",
+        "ct",
+        "magnetic resonance imaging",
+        "medical ultrasonography",
+        "medical ultrasound",
+        "mri",
+        "radiology",
+        "sonography",
+        "ultrasonography"
+    ],
+    "fields": [
+        "{amenity/doctors}"
+    ],
+    "moreFields": [
+        "{amenity/doctors}"
+    ],
+    "tags": {
+        "amenity": "doctors",
+        "healthcare:speciality": "radiology"
+    },
+    "addTags": {
+        "amenity": "doctors",
+        "healthcare:speciality": "radiology",
+        "healthcare": "doctor"
+    },
+    "reference": {
+        "key": "healthcare:speciality",
+        "value": "radiology"
+    },
+    "name": "Radiologist",
+    "aliases": [
+        "Roentgenologist"
+    ]
+}

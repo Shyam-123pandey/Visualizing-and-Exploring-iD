@@ -1,0 +1,22 @@
+{
+    "icon": "maki-stadium",
+    "fields": [
+        "{playground}",
+        "bench"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "playground": "roundabout"
+    },
+    "terms": [
+        "carousel",
+        "merry-go-round"
+    ],
+    "name": "Play Roundabout"
+}

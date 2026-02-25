@@ -1,0 +1,25 @@
+{
+    "icon": "temaki-field_hockey",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "fields": [
+        "{leisure/pitch}"
+    ],
+    "moreFields": [
+        "{leisure/pitch}"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "field_hockey"
+    },
+    "reference": {
+        "key": "sport",
+        "value": "field_hockey"
+    },
+    "terms": [
+        "landhockey"
+    ],
+    "name": "Field Hockey Pitch"
+}

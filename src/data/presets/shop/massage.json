@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-spa",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "massage"
+    },
+    "name": "Massage Shop"
+}

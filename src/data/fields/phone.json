@@ -1,0 +1,13 @@
+{
+    "key": "phone",
+    "keys": [
+        "phone",
+        "contact:phone"
+    ],
+    "type": "tel",
+    "label": "Telephone",
+    "placeholder": "+000 0000 0000 0000",
+    "terms": [
+        "phone number"
+    ]
+}

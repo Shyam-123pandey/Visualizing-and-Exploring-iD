@@ -1,0 +1,23 @@
+{
+    "icon": "maki-shop",
+    "fields": [
+        "{shop}",
+        "second_hand"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "nonprofit",
+        "op shop",
+        "thrift"
+    ],
+    "tags": {
+        "shop": "charity"
+    },
+    "name": "Charity Store"
+}

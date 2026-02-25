@@ -1,0 +1,17 @@
+{
+    "icon": "maki-attraction",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "photographer"
+    },
+    "name": "Photographer"
+}

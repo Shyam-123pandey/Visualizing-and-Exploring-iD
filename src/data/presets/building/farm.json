@@ -1,0 +1,17 @@
+{
+    "icon": "maki-farm",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "farm"
+    },
+    "matchScore": 0.5,
+    "name": "Farm House"
+}

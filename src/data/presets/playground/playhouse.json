@@ -1,0 +1,25 @@
+{
+    "icon": "temaki-play_structure",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "playhouse"
+    },
+    "terms": [
+        "children's house",
+        "playground house",
+        "playhouse"
+    ],
+    "name": "Play House",
+    "aliases": [
+        "Wendy House"
+    ]
+}

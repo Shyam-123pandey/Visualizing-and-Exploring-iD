@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-dagger",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "ammo",
+        "gun",
+        "knife",
+        "knives"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "weapons"
+    },
+    "name": "Weapon Shop"
+}

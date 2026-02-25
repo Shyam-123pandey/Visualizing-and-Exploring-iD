@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-handbag",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "leather"
+    },
+    "name": "Leather Store"
+}

@@ -1,0 +1,24 @@
+{
+    "icon": "maki-home",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "house",
+        "{building}"
+    ],
+    "moreFields": [
+        "{building/house}"
+    ],
+    "tags": {
+        "building": "house",
+        "house": "detached"
+    },
+    "reference": {
+        "key": "house",
+        "value": "detached"
+    },
+    "matchScore": 0.5,
+    "name": "{building/detached}",
+    "searchable": false
+}

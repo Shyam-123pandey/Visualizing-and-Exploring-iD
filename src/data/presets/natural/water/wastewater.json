@@ -1,0 +1,29 @@
+{
+    "icon": "temaki-waste",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{natural/water}"
+    ],
+    "moreFields": [
+        "{natural/water}"
+    ],
+    "tags": {
+        "natural": "water",
+        "water": "wastewater"
+    },
+    "reference": {
+        "key": "water",
+        "value": "wastewater"
+    },
+    "terms": [
+        "clarifier basin",
+        "excrement",
+        "settling basin",
+        "sewage",
+        "shit",
+        "wastewater"
+    ],
+    "name": "Wastewater Basin"
+}

@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-goods_lift",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "name",
+        "aerialway/capacity",
+        "aerialway/duration"
+    ],
+    "moreFields": [
+        "{aerialway}"
+    ],
+    "tags": {
+        "aerialway": "goods"
+    },
+    "terms": [
+        "aerial cable"
+    ],
+    "name": "Goods Aerialway"
+}

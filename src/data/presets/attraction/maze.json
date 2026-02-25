@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-maze",
+    "fields": [
+        "{attraction}"
+    ],
+    "moreFields": [
+        "{attraction}",
+        "max_age",
+        "min_age"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "amusement ride",
+        "labyrinth",
+        "theme park"
+    ],
+    "tags": {
+        "attraction": "maze"
+    },
+    "name": "Maze"
+}

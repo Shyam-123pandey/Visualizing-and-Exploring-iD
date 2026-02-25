@@ -1,0 +1,29 @@
+{
+    "icon": "fas-balance-scale",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "tags": {
+        "office": "lawyer"
+    },
+    "terms": [
+        "advocate",
+        "attorney",
+        "barrister",
+        "counsellor",
+        "counselor",
+        "defender",
+        "lawyer",
+        "legal",
+        "prosecutor",
+        "solicitor"
+    ],
+    "name": "Law Office"
+}

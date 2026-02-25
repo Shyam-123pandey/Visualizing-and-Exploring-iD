@@ -1,0 +1,25 @@
+{
+    "icon": "temaki-propane_tank",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "cng",
+        "lpg",
+        "natural gas",
+        "propane",
+        "refill",
+        "tank"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "gas"
+    },
+    "name": "Bottled Gas Shop"
+}

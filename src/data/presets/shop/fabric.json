@@ -1,0 +1,22 @@
+{
+    "icon": "fas-tape",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "sew",
+        "textile",
+        "textiles"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "fabric"
+    },
+    "name": "Fabric Store"
+}

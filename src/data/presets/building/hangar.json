@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-hangar",
+    "fields": [
+        "name"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "building": "hangar"
+    },
+    "matchScore": 0.5,
+    "name": "Hangar Building"
+}

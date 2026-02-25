@@ -1,0 +1,34 @@
+{
+    "icon": "maki-fire-station",
+    "fields": [
+        "name",
+        "operator",
+        "address",
+        "building_area"
+    ],
+    "moreFields": [
+        "{@templates/contact}",
+        "gnis/feature_id-US",
+        "polling_station",
+        "smoking",
+        "wheelchair"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "amenity": "fire_station"
+    },
+    "terms": [
+        "fire brigade",
+        "fire department",
+        "fire fighters",
+        "firehouse"
+    ],
+    "name": "Fire Station",
+    "aliases": [
+        "Fire House",
+        "Fire Hall"
+    ]
+}

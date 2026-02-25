@@ -1,0 +1,19 @@
+{
+    "icon": "temaki-beach",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "{natural}"
+    ],
+    "moreFields": [
+        "{natural}"
+    ],
+    "tags": {
+        "natural": "coastline"
+    },
+    "terms": [
+        "shore"
+    ],
+    "name": "Coastline"
+}

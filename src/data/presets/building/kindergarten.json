@@ -1,0 +1,22 @@
+{
+    "icon": "fas-school",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "kindergarden",
+        "kindergarten",
+        "pre-school"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "kindergarten"
+    },
+    "matchScore": 0.5,
+    "name": "Preschool / Kindergarten Building"
+}

@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-boulder1",
+    "fields": [
+        "name"
+    ],
+    "moreFields": [
+        "{natural}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "natural": "stone"
+    },
+    "terms": [
+        "boulder",
+        "rock",
+        "stone"
+    ],
+    "name": "Unattached Stone / Boulder"
+}

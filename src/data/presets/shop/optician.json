@@ -1,0 +1,22 @@
+{
+    "icon": "maki-optician",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "eye",
+        "glasses",
+        "spectacles"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "optician"
+    },
+    "name": "Optician"
+}

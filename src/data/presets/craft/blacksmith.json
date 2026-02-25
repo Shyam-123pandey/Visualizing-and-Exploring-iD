@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-anvil_and_hammer",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "blacksmith"
+    },
+    "name": "Blacksmith"
+}

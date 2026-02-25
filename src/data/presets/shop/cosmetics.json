@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-lipstick",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "cosmetics"
+    },
+    "terms": [
+        "make-up",
+        "makeup"
+    ],
+    "name": "Cosmetics Store"
+}

@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-hearing_aid",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "hearing_aids"
+    },
+    "name": "Hearing Aids Store"
+}

@@ -1,0 +1,48 @@
+{
+    "icon": "maki-horse-riding",
+    "fields": [
+        "{leisure/pitch}"
+    ],
+    "moreFields": [
+        "{leisure/pitch}"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "equestrian"
+    },
+    "reference": {
+        "key": "sport",
+        "value": "equestrian"
+    },
+    "terms": [
+        "arena",
+        "dressage",
+        "dressage arena",
+        "dressage ring",
+        "equestrian arena",
+        "horse",
+        "horse riding",
+        "horse riding ring",
+        "horseback",
+        "horseback riding",
+        "horseback riding arena",
+        "jumping arena",
+        "jumping ring",
+        "longeing",
+        "pen",
+        "polo",
+        "riding",
+        "riding ring",
+        "ring",
+        "rodeo",
+        "round pen"
+    ],
+    "aliases": [
+        "Horseback Riding Ring"
+    ],
+    "name": "Horseback Riding / Rodeo Arena"
+}

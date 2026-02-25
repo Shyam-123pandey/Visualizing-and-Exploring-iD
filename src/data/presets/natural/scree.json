@@ -1,0 +1,18 @@
+{
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{natural}"
+    ],
+    "moreFields": [
+        "{natural}"
+    ],
+    "tags": {
+        "natural": "scree"
+    },
+    "terms": [
+        "loose rocks"
+    ],
+    "name": "Scree"
+}

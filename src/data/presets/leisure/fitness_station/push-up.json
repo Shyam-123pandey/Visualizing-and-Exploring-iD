@@ -1,0 +1,36 @@
+{
+    "icon": "roentgen-bench",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{leisure/fitness_station}"
+    ],
+    "moreFields": [
+        "{leisure/fitness_station}"
+    ],
+    "tags": {
+        "leisure": "fitness_station",
+        "fitness_station": "push-up"
+    },
+    "addTags": {
+        "leisure": "fitness_station",
+        "fitness_station": "push-up",
+        "sport": "fitness"
+    },
+    "reference": {
+        "key": "leisure",
+        "value": "fitness_station"
+    },
+    "terms": [
+        "bar",
+        "exercise",
+        "fitness",
+        "gym",
+        "push up",
+        "pushup",
+        "trim trail"
+    ],
+    "name": "Push-Up Station"
+}

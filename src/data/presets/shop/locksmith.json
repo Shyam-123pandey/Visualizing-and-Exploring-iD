@@ -1,0 +1,21 @@
+{
+    "icon": "fas-key",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "key",
+        "lockpick"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "locksmith"
+    },
+    "name": "Locksmith"
+}

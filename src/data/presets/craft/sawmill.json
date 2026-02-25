@@ -1,0 +1,20 @@
+{
+    "icon": "maki-logging",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "lumber"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "sawmill"
+    },
+    "name": "Sawmill"
+}

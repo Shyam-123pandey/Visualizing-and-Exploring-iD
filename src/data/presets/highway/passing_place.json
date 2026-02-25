@@ -1,0 +1,16 @@
+{
+    "icon": "maki-circle-stroked",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "{highway}"
+    ],
+    "tags": {
+        "highway": "passing_place"
+    },
+    "terms": [
+        "turnout, pullout"
+    ],
+    "name": "Passing Place"
+}

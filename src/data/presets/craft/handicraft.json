@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-vase",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "handicraft"
+    },
+    "name": "Handicraft Workspace"
+}

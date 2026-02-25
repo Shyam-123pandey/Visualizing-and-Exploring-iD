@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-perfume",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "perfumery"
+    },
+    "terms": [
+        "cologne",
+        "fragrance",
+        "perfume"
+    ],
+    "name": "Perfume Store"
+}

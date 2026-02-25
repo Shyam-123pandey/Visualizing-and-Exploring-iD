@@ -1,0 +1,19 @@
+{
+    "icon": "maki-roadblock",
+    "fields": [
+        "access"
+    ],
+    "moreFields": [
+        "wheelchair"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "barrier": "motorcycle_barrier"
+    },
+    "terms": [
+        "motorbike barrier"
+    ],
+    "name": "Motorcycle Barrier"
+}

@@ -1,0 +1,19 @@
+{
+    "icon": "temaki-mountain_range",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "{natural}"
+    ],
+    "moreFields": [
+        "{natural}"
+    ],
+    "tags": {
+        "natural": "ridge"
+    },
+    "terms": [
+        "crest"
+    ],
+    "name": "Ridge"
+}

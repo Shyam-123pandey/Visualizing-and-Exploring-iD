@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-train",
+    "fields": [
+        "operator"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "landuse": "railway"
+    },
+    "terms": [
+        "depot",
+        "rail",
+        "railway",
+        "track",
+        "train",
+        "train depot"
+    ],
+    "name": "Railway Corridor"
+}

@@ -1,0 +1,26 @@
+{
+    "icon": "maki-wetland",
+    "fields": [
+        "salt",
+        "tidal"
+    ],
+    "moreFields": [
+        "{natural/wetland}"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "natural": "wetland",
+        "wetland": "saltmarsh"
+    },
+    "reference": {
+        "key": "wetland",
+        "value": "saltmarsh"
+    },
+    "terms": [
+        "saltmarsh",
+        "tidal"
+    ],
+    "name": "Coastal Salt Marsh"
+}

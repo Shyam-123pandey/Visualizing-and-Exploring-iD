@@ -1,0 +1,30 @@
+{
+    "icon": "maki-doctor",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{amenity/clinic}"
+    ],
+    "moreFields": [
+        "{amenity/clinic}"
+    ],
+    "tags": {
+        "healthcare": "dialysis"
+    },
+    "addTags": {
+        "amenity": "clinic",
+        "healthcare": "dialysis",
+        "healthcare:speciality": "nephrology"
+    },
+    "reference": {
+        "key": "healthcare",
+        "value": "dialysis"
+    },
+    "terms": [
+        "dialysis clinic",
+        "kidney dialysis"
+    ],
+    "name": "Dialysis Center"
+}

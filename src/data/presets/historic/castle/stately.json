@@ -1,0 +1,32 @@
+{
+    "icon": "fas-crown",
+    "fields": [
+        "name",
+        "building_area_yes",
+        "access_simple",
+        "start_date"
+    ],
+    "moreFields": [
+        "{historic/castle}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "reference": {
+        "key": "castle_type",
+        "value": "stately"
+    },
+    "tags": {
+        "historic": "castle",
+        "castle_type": "stately"
+    },
+    "terms": [
+        "gentry",
+        "historic country house",
+        "nobility",
+        "representative",
+        "stately home"
+    ],
+    "name": "Château"
+}

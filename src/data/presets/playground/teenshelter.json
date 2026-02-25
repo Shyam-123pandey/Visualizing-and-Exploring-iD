@@ -1,0 +1,17 @@
+{
+    "icon": "maki-shelter",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "teenshelter"
+    },
+    "name": "Teen Shelter"
+}

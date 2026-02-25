@@ -1,0 +1,26 @@
+{
+    "icon": "maki-home",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "semidetached_house"
+    },
+    "terms": [
+        "double",
+        "duplex",
+        "dwelling",
+        "family",
+        "home",
+        "residence",
+        "twin"
+    ],
+    "matchScore": 0.5,
+    "name": "Semi-Detached House"
+}

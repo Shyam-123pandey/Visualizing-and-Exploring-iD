@@ -1,0 +1,23 @@
+{
+    "icon": "fas-pills",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "health",
+        "protein",
+        "supplement",
+        "vitamin"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "nutrition_supplements"
+    },
+    "name": "Nutrition Supplements Store"
+}

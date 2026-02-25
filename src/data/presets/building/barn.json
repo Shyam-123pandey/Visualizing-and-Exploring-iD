@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-barn",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "barn"
+    },
+    "matchScore": 0.5,
+    "name": "Barn"
+}

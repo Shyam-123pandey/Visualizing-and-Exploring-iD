@@ -1,0 +1,40 @@
+{
+    "icon": "maki-slaughterhouse",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "bar",
+        "beef",
+        "breakfast",
+        "cafe",
+        "café",
+        "canteen",
+        "chop house",
+        "dine",
+        "dining",
+        "dinner",
+        "drive-in",
+        "eat",
+        "grill",
+        "lunch",
+        "steak house",
+        "table"
+    ],
+    "fields": [
+        "{amenity/restaurant}"
+    ],
+    "moreFields": [
+        "{amenity/restaurant}"
+    ],
+    "tags": {
+        "amenity": "restaurant",
+        "cuisine": "steak_house"
+    },
+    "reference": {
+        "key": "cuisine",
+        "value": "steak_house"
+    },
+    "name": "Steakhouse"
+}

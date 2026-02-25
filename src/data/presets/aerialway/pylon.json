@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-aerialway_pole",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "fields": [
+        "ref"
+    ],
+    "moreFields": [
+        "{aerialway}"
+    ],
+    "tags": {
+        "aerialway": "pylon"
+    },
+    "terms": [
+        "chair lift pole",
+        "lift tower",
+        "skiing",
+        "snowboarding"
+    ],
+    "name": "Aerialway Pylon"
+}

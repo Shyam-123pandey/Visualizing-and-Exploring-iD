@@ -1,0 +1,27 @@
+{
+    "icon": "maki-garden",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{leisure/garden}"
+    ],
+    "moreFields": [
+        "{leisure/garden}"
+    ],
+    "tags": {
+        "leisure": "garden",
+        "garden:type": "community"
+    },
+    "reference": {
+        "key": "garden:type",
+        "value": "community"
+    },
+    "terms": [
+        "co-op garden",
+        "collective garden",
+        "communal garden"
+    ],
+    "name": "Community Garden"
+}

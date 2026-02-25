@@ -1,0 +1,31 @@
+{
+    "icon": "fas-microphone",
+    "fields": [
+        "name",
+        "studio",
+        "address",
+        "building_area_yes",
+        "website"
+    ],
+    "moreFields": [
+        "{@templates/contact}",
+        "{@templates/internet_access}",
+        "gnis/feature_id-US",
+        "level",
+        "wheelchair"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "radio",
+        "recording",
+        "television",
+        "tv studio"
+    ],
+    "tags": {
+        "amenity": "studio"
+    },
+    "name": "Studio"
+}

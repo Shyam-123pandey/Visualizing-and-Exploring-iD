@@ -1,0 +1,27 @@
+{
+    "icon": "maki-shop",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "model"
+    },
+    "terms": [
+        "hobby",
+        "model building",
+        "model figures",
+        "model kits",
+        "model railroading",
+        "model store",
+        "rail transport modelling",
+        "scale models"
+    ],
+    "name": "Model Shop"
+}

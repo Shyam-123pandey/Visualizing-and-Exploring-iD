@@ -1,0 +1,34 @@
+{
+    "icon": "maki-religious-buddhist",
+    "fields": [
+        "name",
+        "religion",
+        "denomination",
+        "{amenity/place_of_worship}"
+    ],
+    "moreFields": [
+        "{amenity/place_of_worship}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "dojo",
+        "monastery",
+        "pagoda",
+        "stupa",
+        "temple",
+        "vihara",
+        "zendo"
+    ],
+    "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+    },
+    "reference": {
+        "key": "amenity",
+        "value": "place_of_worship"
+    },
+    "name": "Buddhist Temple"
+}

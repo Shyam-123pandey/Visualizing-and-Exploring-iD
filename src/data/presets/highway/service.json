@@ -1,0 +1,47 @@
+{
+    "icon": "iD-highway-service",
+    "fields": [
+        "name",
+        "service",
+        "oneway",
+        "maxspeed",
+        "surface",
+        "structure",
+        "tunnel/name",
+        "access"
+    ],
+    "moreFields": [
+        "bridge/name",
+        "bridge/ref",
+        "covered_no",
+        "flood_prone",
+        "hazard_highway",
+        "incline",
+        "lanes",
+        "lit",
+        "maxaxleload_bridge",
+        "maxheight",
+        "maxlength",
+        "maxspeed/advisory",
+        "maxweight_bridge",
+        "maxwidth",
+        "oneway/bicycle",
+        "parking/side/parking",
+        "parking/side/orientation",
+        "smoothness",
+        "trolley_wire",
+        "width"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "service"
+    },
+    "terms": [
+        "road",
+        "street"
+    ],
+    "matchScore": 0.9,
+    "name": "Service Road"
+}

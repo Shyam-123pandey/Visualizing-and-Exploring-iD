@@ -1,0 +1,31 @@
+{
+    "icon": "temaki-benchmark_disk",
+    "fields": [
+        "name",
+        "ref",
+        "survey_point/structure",
+        "survey_point/purpose",
+        "ele_node"
+    ],
+    "moreFields": [
+        "survey_point/datum_aligned",
+        "inscription"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "geodetic mark",
+        "geodetic point",
+        "survey marker",
+        "triangulation pillar",
+        "trig point",
+        "trig station",
+        "trigonometrical station"
+    ],
+    "tags": {
+        "man_made": "survey_point"
+    },
+    "name": "Survey Point"
+}

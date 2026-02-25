@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-balance_beam",
+    "geometry": [
+        "point",
+        "line"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "balancebeam"
+    },
+    "name": "Play Balance Beam"
+}

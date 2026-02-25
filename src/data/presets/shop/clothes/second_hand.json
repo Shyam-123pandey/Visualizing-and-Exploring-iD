@@ -1,0 +1,34 @@
+{
+    "icon": "fas-tshirt",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop/clothes}"
+    ],
+    "moreFields": [
+        "{shop/clothes}"
+    ],
+    "tags": {
+        "shop": "clothes",
+        "second_hand": "only"
+    },
+    "terms": [
+        "blouses",
+        "clothes",
+        "consignment",
+        "dresses",
+        "pants",
+        "preowned",
+        "second hand",
+        "shirts",
+        "shorts",
+        "skirts",
+        "slacks",
+        "suits",
+        "used",
+        "vintage"
+    ],
+    "name": "Secondhand Clothing Store"
+}

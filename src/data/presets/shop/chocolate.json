@@ -1,0 +1,21 @@
+{
+    "icon": "maki-confectionery",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "chocolate"
+    },
+    "terms": [
+        "cocoa",
+        "confectionery"
+    ],
+    "name": "Chocolate Store"
+}

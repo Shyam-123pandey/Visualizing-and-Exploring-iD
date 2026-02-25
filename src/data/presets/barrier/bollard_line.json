@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-bollard_row",
+    "fields": [
+        "access",
+        "bollard",
+        "height",
+        "material",
+        "colour"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "barrier": "bollard"
+    },
+    "name": "Bollard Row"
+}

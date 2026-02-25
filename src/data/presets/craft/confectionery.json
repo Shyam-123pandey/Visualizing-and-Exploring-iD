@@ -1,0 +1,21 @@
+{
+    "icon": "maki-confectionery",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "candy",
+        "sweet"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "fhrs/id-GB"
+    ],
+    "tags": {
+        "craft": "confectionery"
+    },
+    "name": "Candy Maker"
+}

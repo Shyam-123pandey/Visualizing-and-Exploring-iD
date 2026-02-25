@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-rocket_firework",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "pyrotechnics"
+    },
+    "terms": [
+        "fireworks"
+    ],
+    "name": "Fireworks Store"
+}

@@ -1,0 +1,38 @@
+{
+    "icon": "fas-biking",
+    "fields": [
+        "crossing",
+        "{@templates/crossing/defaults}",
+        "surface"
+    ],
+    "moreFields": [
+        "{@templates/crossing/geometry_way_more}",
+        "{@templates/crossing/bicycle_more}"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "cycleway",
+        "cycleway": "crossing",
+        "crossing": "unmarked"
+    },
+    "addTags": {
+        "highway": "cycleway",
+        "cycleway": "crossing",
+        "crossing": "unmarked",
+        "crossing:markings": "no"
+    },
+    "reference": {
+        "key": "crossing",
+        "value": "unmarked"
+    },
+    "terms": [
+        "bicycle crossing",
+        "bike crossing",
+        "cycle path crossing",
+        "cycleway crossing"
+    ],
+    "matchScore": 0.95,
+    "name": "Unmarked Cycle Crossing"
+}

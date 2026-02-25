@@ -1,0 +1,25 @@
+{
+    "icon": "fas-cocktail",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{amenity/nightclub}"
+    ],
+    "moreFields": [
+        "{amenity/nightclub}"
+    ],
+    "tags": {
+        "amenity": "nightclub",
+        "lgbtq": "primary"
+    },
+    "terms": [
+        "gay nightclub",
+        "lesbian nightclub",
+        "lgb nightclub",
+        "lgbt nightclub",
+        "lgbtq nightclub"
+    ],
+    "name": "LGBTQ+ Nightclub"
+}

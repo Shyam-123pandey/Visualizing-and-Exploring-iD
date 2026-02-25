@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-chicane_arrow",
+    "fields": [
+        "surface",
+        "direction_vertex"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "driveway link",
+        "slow",
+        "speed",
+        "traffic calming"
+    ],
+    "tags": {
+        "traffic_calming": "chicane"
+    },
+    "name": "Traffic Chicane"
+}

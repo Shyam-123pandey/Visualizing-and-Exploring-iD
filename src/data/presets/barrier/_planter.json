@@ -1,0 +1,19 @@
+{
+    "icon": "maki-garden",
+    "fields": [
+        "access",
+        "material"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "barrier": "planter",
+        "man_made": "planter"
+    },
+    "name": "Planter (Barrier)",
+    "searchable": false
+}

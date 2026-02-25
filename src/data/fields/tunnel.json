@@ -1,0 +1,8 @@
+{
+    "key": "tunnel",
+    "type": "typeCombo",
+    "label": "Type",
+    "usage": "group",
+    "placeholder": "Default",
+    "stringsCrossReference": "{tunnel_combo}"
+}

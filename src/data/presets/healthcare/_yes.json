@@ -1,0 +1,21 @@
+{
+    "icon": "maki-hospital",
+    "fields": [
+        "name",
+        "healthcare",
+        "{healthcare}"
+    ],
+    "moreFields": [
+        "{healthcare}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "healthcare": "yes"
+    },
+    "searchable": false,
+    "matchScore": 0.5,
+    "name": "Healthcare Facility (Unspecified Type)"
+}

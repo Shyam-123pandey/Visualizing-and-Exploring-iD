@@ -1,0 +1,17 @@
+{
+    "icon": "far-snowflake",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "fhrs/id-GB"
+    ],
+    "tags": {
+        "shop": "frozen_food"
+    },
+    "name": "Frozen Food Store"
+}

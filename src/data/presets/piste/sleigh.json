@@ -1,0 +1,29 @@
+{
+    "icon": "fas-sleigh",
+    "fields": [
+        "name",
+        "piste/type",
+        "piste/difficulty",
+        "piste/grooming",
+        "oneway",
+        "lit"
+    ],
+    "geometry": [
+        "line",
+        "area"
+    ],
+    "tags": {
+        "piste:type": "sleigh"
+    },
+    "terms": [
+        "dogsledding",
+        "horse",
+        "husky",
+        "piste",
+        "ski-joring",
+        "skijoring",
+        "sled",
+        "sledge"
+    ],
+    "name": "Sleigh Trail"
+}

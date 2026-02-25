@@ -1,0 +1,29 @@
+{
+    "icon": "maki-castle",
+    "fields": [
+        "name",
+        "building_area_yes",
+        "access_simple",
+        "start_date"
+    ],
+    "moreFields": [
+        "{historic/castle}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "reference": {
+        "key": "castle_type",
+        "value": "fortress"
+    },
+    "tags": {
+        "historic": "castle",
+        "castle_type": "fortress"
+    },
+    "terms": [
+        "citadel",
+        "military"
+    ],
+    "name": "Historic Fortress"
+}

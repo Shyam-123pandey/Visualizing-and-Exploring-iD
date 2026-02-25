@@ -1,0 +1,29 @@
+{
+    "icon": "maki-grocery",
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}",
+        "self_checkout",
+        "diet_multi",
+        "fhrs/id-GB",
+        "organic"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "food market",
+        "grocery",
+        "grocery store",
+        "market",
+        "shop",
+        "store"
+    ],
+    "tags": {
+        "shop": "supermarket"
+    },
+    "name": "Supermarket"
+}

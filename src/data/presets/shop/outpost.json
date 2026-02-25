@@ -1,0 +1,22 @@
+{
+    "icon": "maki-shop",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "online",
+        "pick up",
+        "pickup"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "outpost"
+    },
+    "name": "Online Retailer Outpost"
+}

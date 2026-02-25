@@ -1,0 +1,17 @@
+{
+    "icon": "fas-paint-roller",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "painter"
+    },
+    "name": "Painter"
+}

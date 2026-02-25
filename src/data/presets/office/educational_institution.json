@@ -1,0 +1,20 @@
+{
+    "icon": "maki-school",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "tags": {
+        "office": "educational_institution"
+    },
+    "terms": [
+        "school"
+    ],
+    "name": "Educational Institution"
+}

@@ -1,0 +1,34 @@
+{
+    "icon": "maki-doctor",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "kidney",
+        "kidney medicine",
+        "kidneys",
+        "nephrology",
+        "renal"
+    ],
+    "fields": [
+        "{amenity/doctors}"
+    ],
+    "moreFields": [
+        "{amenity/doctors}"
+    ],
+    "tags": {
+        "amenity": "doctors",
+        "healthcare:speciality": "nephrology"
+    },
+    "addTags": {
+        "amenity": "doctors",
+        "healthcare:speciality": "nephrology",
+        "healthcare": "doctor"
+    },
+    "reference": {
+        "key": "healthcare:speciality",
+        "value": "nephrology"
+    },
+    "name": "Nephrologist"
+}

@@ -1,0 +1,28 @@
+{
+    "icon": "maki-wetland",
+    "fields": [
+        "salt",
+        "tidal"
+    ],
+    "moreFields": [
+        "{natural/wetland}"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "natural": "wetland",
+        "wetland": "tidalflat"
+    },
+    "reference": {
+        "key": "wetland",
+        "value": "tidalflat"
+    },
+    "terms": [
+        "tidal"
+    ],
+    "aliases": [
+        "Mudflat"
+    ],
+    "name": "Tidal Flat"
+}

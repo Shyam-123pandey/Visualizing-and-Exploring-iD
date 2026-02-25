@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-railing",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "{barrier/fence}"
+    ],
+    "moreFields": [
+        "{barrier/fence}"
+    ],
+    "tags": {
+        "barrier": "fence",
+        "fence_type": "railing"
+    },
+    "terms": [
+        "guard rail",
+        "handrail",
+        "railing"
+    ],
+    "name": "Railing",
+    "matchScore": 0.5
+}
