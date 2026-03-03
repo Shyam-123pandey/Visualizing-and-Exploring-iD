@@ -1,0 +1,19 @@
+{
+    "icon": "fas-truck-fast",
+    "fields": [
+        "surface"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "terms": [
+        "emergency escape ramp",
+        "escape lane",
+        "runaway truck lane",
+        "truck arrester bed"
+    ],
+    "tags": {
+        "highway": "escape"
+    },
+    "name": "Runaway Truck Ramp"
+}

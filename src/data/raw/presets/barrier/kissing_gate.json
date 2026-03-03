@@ -1,0 +1,16 @@
+{
+    "icon": "temaki-gate",
+    "fields": [
+        "access"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "barrier": "kissing_gate"
+    },
+    "name": "Kissing Gate"
+}

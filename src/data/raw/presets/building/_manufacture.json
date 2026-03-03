@@ -1,0 +1,18 @@
+{
+    "icon": "maki-industry",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "manufacture"
+    },
+    "matchScore": 0.5,
+    "name": "Industrial Production Building",
+    "searchable": false
+}

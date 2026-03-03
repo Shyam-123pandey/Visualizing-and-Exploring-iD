@@ -1,0 +1,30 @@
+{
+    "icon": "maki-water",
+    "fields": [
+        "name",
+        "basin",
+        "intermittent_yes"
+    ],
+    "moreFields": [
+        "{natural/water}"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "natural": "water",
+        "water": "basin"
+    },
+    "reference": {
+        "key": "water",
+        "value": "basin"
+    },
+    "terms": [
+        "detention",
+        "drain",
+        "overflow",
+        "rain",
+        "retention"
+    ],
+    "name": "Basin"
+}

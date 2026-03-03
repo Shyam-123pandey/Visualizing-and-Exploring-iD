@@ -1,0 +1,20 @@
+{
+    "icon": "fas-newspaper",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "fhrs/id-GB"
+    ],
+    "tags": {
+        "shop": "newsagent"
+    },
+    "name": "Newsstand",
+    "aliases": [
+        "Newspaper / Magazine Shop"
+    ]
+}

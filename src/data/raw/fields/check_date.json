@@ -1,0 +1,11 @@
+{
+    "key": "check_date",
+    "type": "date",
+    "label": "Last Checked Date",
+    "placeholder": "YYYY-MM-DD",
+    "universal": true,
+    "terms": [
+        "last survey date",
+        "survey date"
+    ]
+}

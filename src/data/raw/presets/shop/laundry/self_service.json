@@ -1,0 +1,25 @@
+{
+    "icon": "temaki-laundry",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop/laundry}"
+    ],
+    "moreFields": [
+        "{shop/laundry}"
+    ],
+    "tags": {
+        "shop": "laundry",
+        "self_service": "yes"
+    },
+    "name": "Self-Service Laundry",
+    "aliases": [
+        "Coin Laundry",
+        "Laundromat",
+        "Coin Wash",
+        "Launderette",
+        "Washateria"
+    ]
+}

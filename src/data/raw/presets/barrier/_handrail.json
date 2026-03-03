@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-railing",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "{barrier}"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "tags": {
+        "barrier": "handrail"
+    },
+    "name": "Handrail",
+    "searchable": false
+}

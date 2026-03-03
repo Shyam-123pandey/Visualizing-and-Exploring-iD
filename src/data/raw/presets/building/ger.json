@@ -1,0 +1,19 @@
+{
+    "icon": "temaki-hut",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "ger"
+    },
+    "terms": [
+        "ger"
+    ],
+    "name": "Yurt"
+}

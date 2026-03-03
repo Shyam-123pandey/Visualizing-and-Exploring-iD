@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-vacuum",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "vacuum_cleaner"
+    },
+    "name": "Vacuum Cleaner Store"
+}

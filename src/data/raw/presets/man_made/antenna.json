@@ -1,0 +1,30 @@
+{
+    "icon": "temaki-antenna",
+    "fields": [
+        "communication_multi",
+        "operator",
+        "manufacturer",
+        "height"
+    ],
+    "moreFields": [
+        "{man_made}"
+    ],
+    "geometry": [
+        "point"
+    ],
+    "terms": [
+        "broadcast",
+        "cell",
+        "cell phone",
+        "communication",
+        "mobile phone",
+        "radio",
+        "television",
+        "transmission",
+        "tv"
+    ],
+    "tags": {
+        "man_made": "antenna"
+    },
+    "name": "Antenna"
+}

@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-play_structure",
+    "geometry": [
+        "point",
+        "line",
+        "area"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "structure"
+    },
+    "terms": [
+        "jungle gym"
+    ],
+    "name": "Play Structure"
+}

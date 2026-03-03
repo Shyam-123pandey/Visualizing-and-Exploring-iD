@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-storage_tank",
+    "fields": [
+        "content",
+        "building_area_yes"
+    ],
+    "moreFields": [
+        "{man_made}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "gas holder"
+    ],
+    "tags": {
+        "man_made": "gasometer"
+    },
+    "name": "Gasometer"
+}

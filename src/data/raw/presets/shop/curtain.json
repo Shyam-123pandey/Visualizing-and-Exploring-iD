@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-curtains",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "drape",
+        "drapery",
+        "window"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "curtain"
+    },
+    "name": "Curtain Store"
+}

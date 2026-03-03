@@ -1,0 +1,8 @@
+{
+    "key": "bridge",
+    "type": "typeCombo",
+    "label": "Type",
+    "usage": "group",
+    "placeholder": "Default",
+    "stringsCrossReference": "{bridge_combo}"
+}

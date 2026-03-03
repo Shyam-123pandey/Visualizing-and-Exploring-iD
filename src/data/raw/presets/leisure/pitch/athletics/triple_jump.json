@@ -1,0 +1,23 @@
+{
+    "icon": "maki-pitch",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "fields": [
+        "{leisure/pitch/athletics}"
+    ],
+    "moreFields": [
+        "{leisure/pitch/athletics}"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "athletics",
+        "athletics": "triple_jump"
+    },
+    "reference": {
+        "key": "athletics",
+        "value": "triple_jump"
+    },
+    "name": "Triple Jump Pit"
+}

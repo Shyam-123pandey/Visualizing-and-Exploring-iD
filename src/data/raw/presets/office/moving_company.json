@@ -1,0 +1,21 @@
+{
+    "icon": "fas-people-carry",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "tags": {
+        "office": "moving_company"
+    },
+    "terms": [
+        "movers",
+        "relocation"
+    ],
+    "name": "Moving Company Office"
+}

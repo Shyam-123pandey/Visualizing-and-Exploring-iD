@@ -1,0 +1,27 @@
+{
+    "icon": "temaki-cape_landform",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "name"
+    ],
+    "moreFields": [
+        "{natural}"
+    ],
+    "tags": {
+        "natural": "peninsula"
+    },
+    "terms": [
+        "bay",
+        "cape",
+        "coastline",
+        "erosion",
+        "headland",
+        "island",
+        "islet",
+        "promontory"
+    ],
+    "name": "Peninsula"
+}

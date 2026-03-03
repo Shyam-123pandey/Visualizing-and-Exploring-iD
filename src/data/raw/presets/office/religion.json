@@ -1,0 +1,23 @@
+{
+    "icon": "maki-suitcase",
+    "fields": [
+        "{office}",
+        "religion",
+        "denomination"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "office": "religion"
+    },
+    "terms": [
+        "rector",
+        "vicar"
+    ],
+    "name": "Religious Office"
+}

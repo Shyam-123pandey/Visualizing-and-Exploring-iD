@@ -1,0 +1,20 @@
+{
+    "icon": "fas-newspaper",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "tags": {
+        "office": "newspaper"
+    },
+    "terms": [
+        "newsroom"
+    ],
+    "name": "Newspaper Office"
+}

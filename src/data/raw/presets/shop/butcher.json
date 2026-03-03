@@ -1,0 +1,29 @@
+{
+    "icon": "temaki-cleaver",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "beef",
+        "chicken",
+        "lamb",
+        "meat",
+        "pork"
+    ],
+    "tags": {
+        "shop": "butcher"
+    },
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "fhrs/id-GB"
+    ],
+    "name": "Butcher",
+    "aliases": [
+        "Butcher Shop",
+        "Pork Store",
+        "Butchery"
+    ]
+}

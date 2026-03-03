@@ -1,0 +1,31 @@
+{
+    "icon": "temaki-embassy",
+    "fields": [
+        "name",
+        "embassy",
+        "{office/diplomatic}"
+    ],
+    "moreFields": [
+        "{office/diplomatic}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "office": "diplomatic",
+        "diplomatic": "embassy"
+    },
+    "reference": {
+        "key": "diplomatic",
+        "value": "embassy"
+    },
+    "terms": [
+        "consulate",
+        "diplomatic mission",
+        "foreign mission",
+        "high commission",
+        "permanent mission"
+    ],
+    "name": "Embassy"
+}

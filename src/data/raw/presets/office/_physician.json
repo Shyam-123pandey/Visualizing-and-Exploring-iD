@@ -1,0 +1,18 @@
+{
+    "icon": "maki-suitcase",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "tags": {
+        "office": "physician"
+    },
+    "searchable": false,
+    "name": "Physician"
+}

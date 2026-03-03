@@ -1,0 +1,28 @@
+{
+    "icon": "maki-pitch",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "asanas",
+        "meditation",
+        "modern yoga",
+        "studio"
+    ],
+    "fields": [
+        "{leisure/fitness_centre}"
+    ],
+    "moreFields": [
+        "{leisure/fitness_centre}"
+    ],
+    "tags": {
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+    },
+    "reference": {
+        "key": "sport",
+        "value": "yoga"
+    },
+    "name": "Yoga Studio"
+}

@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-compass",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{man_made}"
+    ],
+    "moreFields": [
+        "{man_made}"
+    ],
+    "tags": {
+        "man_made": "compass_rose"
+    },
+    "terms": [
+        "compass",
+        "east",
+        "north",
+        "rose of the winds",
+        "south",
+        "west",
+        "wind rose"
+    ],
+    "name": "Compass Rose"
+}

@@ -1,0 +1,20 @@
+{
+    "icon": "fas-film",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "film"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "photographic_laboratory"
+    },
+    "name": "Photographic Laboratory"
+}

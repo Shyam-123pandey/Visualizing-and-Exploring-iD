@@ -1,0 +1,36 @@
+{
+    "icon": "temaki-money_hand",
+    "fields": [
+        "name",
+        "brand",
+        "address",
+        "building_area_yes",
+        "opening_hours",
+        "payment_multi",
+        "currency_multi"
+    ],
+    "moreFields": [
+        "{@templates/poi}",
+        "branch_brand"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "bill",
+        "cable",
+        "cash to cash",
+        "check",
+        "currency",
+        "exchange",
+        "finance",
+        "money order",
+        "person to person",
+        "wire transfer"
+    ],
+    "tags": {
+        "amenity": "money_transfer"
+    },
+    "name": "Money Transfer Station"
+}

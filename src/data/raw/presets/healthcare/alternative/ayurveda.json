@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-hinduism",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "traditional indian medicine"
+    ],
+    "fields": [
+        "{healthcare/alternative}"
+    ],
+    "moreFields": [
+        "{healthcare/alternative}"
+    ],
+    "tags": {
+        "healthcare": "alternative",
+        "healthcare:speciality": "ayurveda"
+    },
+    "name": "Ayurveda Practitioner"
+}

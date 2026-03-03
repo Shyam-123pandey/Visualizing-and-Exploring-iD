@@ -1,0 +1,27 @@
+{
+    "icon": "maki-garden",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{leisure/garden}"
+    ],
+    "moreFields": [
+        "{leisure/garden}"
+    ],
+    "tags": {
+        "leisure": "garden",
+        "garden:type": "residential"
+    },
+    "reference": {
+        "key": "garden:type"
+    },
+    "terms": [
+        "back garden",
+        "backyard",
+        "domestic garden",
+        "front garden",
+        "front yard"
+    ],
+    "name": "Residential Garden"
+}

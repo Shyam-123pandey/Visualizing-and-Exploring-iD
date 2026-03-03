@@ -1,0 +1,19 @@
+{
+    "icon": "maki-roadblock",
+    "fields": [
+        "access"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "drive-through gate"
+    ],
+    "tags": {
+        "barrier": "bump_gate"
+    },
+    "name": "Bump Gate"
+}

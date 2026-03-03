@@ -1,0 +1,20 @@
+{
+    "icon": "fas-burn",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "candles"
+    },
+    "terms": [
+        "wax"
+    ],
+    "name": "Candle Shop"
+}

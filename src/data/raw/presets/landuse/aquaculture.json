@@ -1,0 +1,31 @@
+{
+    "icon": "maki-aquarium",
+    "fields": [
+        "name",
+        "operator",
+        "produce"
+    ],
+    "moreFields": [
+        "{@templates/contact}",
+        "address"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "landuse": "aquaculture"
+    },
+    "terms": [
+        "algaculture",
+        "algae",
+        "aquafarming",
+        "crustacean",
+        "mariculture",
+        "marine farm",
+        "mussel farm",
+        "oyster farm",
+        "shrimp farm"
+    ],
+    "name": "Aquaculture"
+}

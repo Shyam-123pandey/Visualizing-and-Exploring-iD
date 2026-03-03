@@ -1,0 +1,23 @@
+{
+    "icon": "maki-danger",
+    "fields": [
+        "{attraction}"
+    ],
+    "moreFields": [
+        "{attraction}",
+        "max_age",
+        "min_age"
+    ],
+    "geometry": [
+        "point"
+    ],
+    "terms": [
+        "amusement ride",
+        "carnival ride",
+        "theme park"
+    ],
+    "tags": {
+        "attraction": "pirate_ship"
+    },
+    "name": "Pirate Ship Ride"
+}

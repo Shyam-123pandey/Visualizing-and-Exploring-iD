@@ -1,0 +1,16 @@
+{
+    "icon": "roentgen-turning_loop",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "{highway}"
+    ],
+    "tags": {
+        "highway": "turning_loop"
+    },
+    "terms": [
+        "cul-de-sac"
+    ],
+    "name": "Turning Loop (Island)"
+}

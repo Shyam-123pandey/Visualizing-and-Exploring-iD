@@ -1,0 +1,24 @@
+{
+    "icon": "fas-print",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "copyshop"
+    },
+    "terms": [
+        "print",
+        "scan"
+    ],
+    "name": "Copy Store",
+    "aliases": [
+        "Copy Shop"
+    ]
+}

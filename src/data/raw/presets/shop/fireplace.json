@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-fireplace",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "fireplace",
+        "masonry heater",
+        "stove"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "fireplace"
+    },
+    "name": "Fireplace Store"
+}

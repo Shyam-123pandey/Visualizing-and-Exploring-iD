@@ -1,0 +1,38 @@
+{
+    "icon": "maki-restaurant",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "bar",
+        "breakfast",
+        "cafe",
+        "café",
+        "canteen",
+        "coffee",
+        "dine",
+        "dining",
+        "dinner",
+        "drive-in",
+        "eat",
+        "grill",
+        "lunch",
+        "table"
+    ],
+    "fields": [
+        "{amenity/restaurant}"
+    ],
+    "moreFields": [
+        "{amenity/restaurant}"
+    ],
+    "tags": {
+        "amenity": "restaurant",
+        "cuisine": "american"
+    },
+    "reference": {
+        "key": "cuisine",
+        "value": "american"
+    },
+    "name": "American Restaurant"
+}

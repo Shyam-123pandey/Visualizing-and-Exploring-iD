@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-junction",
+    "fields": [
+        "railway/switch",
+        "railway/turnout_side",
+        "railway/local_operated",
+        "ref"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "railway": "switch"
+    },
+    "terms": [
+        "points",
+        "switch"
+    ],
+    "name": "Railway Switch"
+}

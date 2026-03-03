@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-tools",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "air conditioning",
+        "heating",
+        "ventilation"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "hvac"
+    },
+    "name": "HVAC Workplace"
+}

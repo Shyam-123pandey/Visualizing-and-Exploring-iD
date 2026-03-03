@@ -1,0 +1,28 @@
+{
+    "icon": "temaki-saddle",
+    "fields": [
+        "name",
+        "ele_node"
+    ],
+    "moreFields": [
+        "{natural}"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "natural": "saddle"
+    },
+    "terms": [
+        "col",
+        "gap",
+        "notch",
+        "pass",
+        "top"
+    ],
+    "name": "Saddle",
+    "aliases": [
+        "Mountain Pass"
+    ]
+}

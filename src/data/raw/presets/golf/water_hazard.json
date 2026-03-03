@@ -1,0 +1,14 @@
+{
+    "icon": "maki-golf",
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "golf": "water_hazard"
+    },
+    "addTags": {
+        "golf": "water_hazard",
+        "natural": "water"
+    },
+    "name": "Water Hazard"
+}

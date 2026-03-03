@@ -1,0 +1,19 @@
+{
+    "icon": "fas-archway",
+    "fields": [
+        "bridge/support",
+        "{bridge/support}"
+    ],
+    "moreFields": [
+        "{bridge/support}"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "bridge:support": "pier"
+    },
+    "name": "Bridge Pier"
+}

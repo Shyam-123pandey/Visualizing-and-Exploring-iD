@@ -1,0 +1,23 @@
+{
+    "icon": "maki-logging",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{man_made}"
+    ],
+    "moreFields": [
+        "{man_made}"
+    ],
+    "tags": {
+        "man_made": "clearcut"
+    },
+    "terms": [
+        "cut",
+        "forest",
+        "lumber",
+        "tree",
+        "wood"
+    ],
+    "name": "Clearcut Forest"
+}

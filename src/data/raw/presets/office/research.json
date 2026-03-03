@@ -1,0 +1,24 @@
+{
+    "icon": "fas-flask",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "tags": {
+        "office": "research"
+    },
+    "terms": [
+        "r and d",
+        "r&d",
+        "research and development",
+        "research lab",
+        "rnd"
+    ],
+    "name": "Research Office"
+}

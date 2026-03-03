@@ -1,0 +1,17 @@
+{
+    "icon": "fas-house-fire",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "fire_station"
+    },
+    "matchScore": 0.5,
+    "name": "Fire Station Building"
+}

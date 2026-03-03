@@ -1,0 +1,31 @@
+{
+    "icon": "fas-crosshairs",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "fields": [
+        "{leisure/sports_centre}"
+    ],
+    "moreFields": [
+        "{leisure/sports_centre}"
+    ],
+    "tags": {
+        "leisure": "sports_centre",
+        "sport": "shooting"
+    },
+    "reference": {
+        "key": "sport",
+        "value": "shooting"
+    },
+    "terms": [
+        "firing range",
+        "gun practice",
+        "gun range",
+        "shooting club",
+        "shooting gallery",
+        "shooting practice",
+        "target practice"
+    ],
+    "name": "Shooting Range Facility"
+}

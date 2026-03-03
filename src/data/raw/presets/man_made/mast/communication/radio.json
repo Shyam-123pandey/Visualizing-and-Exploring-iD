@@ -1,0 +1,34 @@
+{
+    "icon": "temaki-mast_communication",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "antenna",
+        "broadcast tower",
+        "communication mast",
+        "communication tower",
+        "guyed tower",
+        "radio mast",
+        "radio tower",
+        "transmission mast",
+        "transmission tower"
+    ],
+    "fields": [
+        "{man_made/mast/communication}"
+    ],
+    "moreFields": [
+        "{man_made/mast/communication}"
+    ],
+    "tags": {
+        "man_made": "mast",
+        "tower:type": "communication",
+        "communication:radio": "yes"
+    },
+    "reference": {
+        "key": "communication:radio",
+        "value": "yes"
+    },
+    "name": "Radio Broadcast Mast"
+}

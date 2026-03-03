@@ -1,0 +1,22 @@
+{
+    "icon": "roentgen-crane",
+    "fields": [
+        "operator",
+        "manufacturer",
+        "height",
+        "crane/type"
+    ],
+    "moreFields": [
+        "{man_made}"
+    ],
+    "geometry": [
+        "point",
+        "line",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "man_made": "crane"
+    },
+    "name": "Crane"
+}

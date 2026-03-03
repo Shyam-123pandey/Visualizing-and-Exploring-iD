@@ -1,0 +1,22 @@
+{
+    "icon": "maki-wetland",
+    "fields": [
+        "salt",
+        "tidal"
+    ],
+    "moreFields": [
+        "{natural/wetland}"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "natural": "wetland",
+        "wetland": "mangrove"
+    },
+    "reference": {
+        "key": "wetland",
+        "value": "mangrove"
+    },
+    "name": "Mangrove"
+}

@@ -1,0 +1,19 @@
+{
+    "icon": "temaki-boulder3",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{natural}"
+    ],
+    "moreFields": [
+        "{natural}"
+    ],
+    "tags": {
+        "natural": "bare_rock"
+    },
+    "terms": [
+        "rock"
+    ],
+    "name": "Bare Rock"
+}

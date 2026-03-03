@@ -1,0 +1,29 @@
+{
+    "icon": "temaki-pedestrian",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "{highway/footway}"
+    ],
+    "moreFields": [
+        "{highway/footway}"
+    ],
+    "tags": {
+        "highway": "footway",
+        "footway": "traffic_island"
+    },
+    "reference": {
+        "key": "footway",
+        "value": "traffic_island"
+    },
+    "terms": [
+        "crossing island"
+    ],
+    "aliases": [
+        "Crosswalk Island",
+        "Traffic Island",
+        "Pedestrian Island"
+    ],
+    "name": "Refuge Island"
+}

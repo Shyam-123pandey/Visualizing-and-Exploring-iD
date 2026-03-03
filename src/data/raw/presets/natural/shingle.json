@@ -1,0 +1,22 @@
+{
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{natural}"
+    ],
+    "moreFields": [
+        "{natural}"
+    ],
+    "tags": {
+        "natural": "shingle"
+    },
+    "terms": [
+        "beach",
+        "gravel",
+        "pebbles",
+        "riverbed",
+        "rounded rock fragments"
+    ],
+    "name": "Shingle"
+}

@@ -1,0 +1,31 @@
+{
+    "icon": "temaki-campfire",
+    "fields": [
+        "access_simple",
+        "seasonal",
+        "width"
+    ],
+    "moreFields": [
+        "ref",
+        "wood_provided"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "leisure": "firepit"
+    },
+    "terms": [
+        "bonfire",
+        "campfire",
+        "fire circle",
+        "fire hole",
+        "fire place",
+        "fire ring",
+        "firepit",
+        "fireplace",
+        "firering"
+    ],
+    "name": "Fire Pit"
+}

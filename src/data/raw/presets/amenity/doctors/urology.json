@@ -1,0 +1,43 @@
+{
+    "icon": "maki-doctor",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "adrenal glands",
+        "bladder",
+        "epididymis",
+        "kidney",
+        "penis",
+        "prostate",
+        "reproductive",
+        "scrotum",
+        "testicles",
+        "testis",
+        "ureters",
+        "urethra",
+        "urinary",
+        "urology"
+    ],
+    "fields": [
+        "{amenity/doctors}"
+    ],
+    "moreFields": [
+        "{amenity/doctors}"
+    ],
+    "tags": {
+        "amenity": "doctors",
+        "healthcare:speciality": "urology"
+    },
+    "addTags": {
+        "amenity": "doctors",
+        "healthcare:speciality": "urology",
+        "healthcare": "doctor"
+    },
+    "reference": {
+        "key": "healthcare:speciality",
+        "value": "urology"
+    },
+    "name": "Urologist"
+}

@@ -1,0 +1,21 @@
+{
+    "icon": "fas-microchip",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "radiotechnics"
+    },
+    "terms": [
+        "antenna",
+        "transistor"
+    ],
+    "name": "Radio / Electronic Component Store"
+}

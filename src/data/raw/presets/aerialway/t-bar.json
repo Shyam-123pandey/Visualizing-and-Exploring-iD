@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-t_bar_lift",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "name",
+        "aerialway/capacity",
+        "aerialway/duration"
+    ],
+    "moreFields": [
+        "{aerialway}"
+    ],
+    "tags": {
+        "aerialway": "t-bar"
+    },
+    "terms": [
+        "drag lift",
+        "skiing",
+        "surface cable",
+        "tbar"
+    ],
+    "name": "T-Bar Lift"
+}

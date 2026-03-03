@@ -1,0 +1,40 @@
+{
+    "icon": "roentgen-horizontal_ladder",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{leisure/fitness_station}"
+    ],
+    "moreFields": [
+        "{leisure/fitness_station}"
+    ],
+    "tags": {
+        "leisure": "fitness_station",
+        "fitness_station": "horizontal_ladder"
+    },
+    "addTags": {
+        "leisure": "fitness_station",
+        "fitness_station": "horizontal_ladder",
+        "sport": "fitness"
+    },
+    "reference": {
+        "key": "leisure",
+        "value": "fitness_station"
+    },
+    "terms": [
+        "bar",
+        "chin up",
+        "chinup",
+        "exercise",
+        "fitness",
+        "gym",
+        "ladder",
+        "monkey bars",
+        "pull up",
+        "pullup",
+        "trim trail"
+    ],
+    "name": "Exercise Monkey Bars"
+}

@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-lawn",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{landuse}"
+    ],
+    "tags": {
+        "landuse": "grass"
+    },
+    "terms": [
+        "field",
+        "green",
+        "lawn",
+        "managed grass",
+        "mown grass",
+        "turf"
+    ],
+    "name": "Grass"
+}

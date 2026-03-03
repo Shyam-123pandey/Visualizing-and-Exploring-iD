@@ -1,0 +1,27 @@
+{
+    "icon": "temaki-train_bullet",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "{railway/rail}"
+    ],
+    "moreFields": [
+        "{railway/rail}"
+    ],
+    "tags": {
+        "railway": "rail",
+        "highspeed": "yes"
+    },
+    "reference": {
+        "key": "highspeed"
+    },
+    "terms": [
+        "bullet train",
+        "fast rail",
+        "high speed rail",
+        "highspeed rail",
+        "hsr"
+    ],
+    "name": "High-Speed Train Track"
+}

@@ -1,0 +1,22 @@
+{
+    "icon": "maki-shop",
+    "fields": [
+        "{shop}",
+        "min_age"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "porn",
+        "sex"
+    ],
+    "tags": {
+        "shop": "erotic"
+    },
+    "name": "Erotic Store"
+}

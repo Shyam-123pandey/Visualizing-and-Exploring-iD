@@ -1,0 +1,28 @@
+{
+    "icon": "maki-water",
+    "fields": [
+        "{natural/water}",
+        "salt",
+        "tidal"
+    ],
+    "moreFields": [
+        "{natural/water}"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "natural": "water",
+        "water": "lake"
+    },
+    "reference": {
+        "key": "water",
+        "value": "lake"
+    },
+    "terms": [
+        "lakelet",
+        "loch",
+        "mere"
+    ],
+    "name": "Lake"
+}

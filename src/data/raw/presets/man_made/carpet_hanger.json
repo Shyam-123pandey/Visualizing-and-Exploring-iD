@@ -1,0 +1,24 @@
+{
+    "icon": "maki-picnic-site",
+    "fields": [
+        "material",
+        "height",
+        "colour"
+    ],
+    "moreFields": [
+        "{man_made}"
+    ],
+    "geometry": [
+        "point",
+        "line"
+    ],
+    "terms": [
+        "beater",
+        "rack",
+        "stand"
+    ],
+    "tags": {
+        "man_made": "carpet_hanger"
+    },
+    "name": "Carpet Hanger"
+}

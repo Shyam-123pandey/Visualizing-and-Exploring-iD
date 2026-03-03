@@ -1,0 +1,34 @@
+{
+    "icon": "temaki-hinduism",
+    "fields": [
+        "name",
+        "religion",
+        "denomination",
+        "{amenity/place_of_worship}"
+    ],
+    "moreFields": [
+        "{amenity/place_of_worship}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "alayam",
+        "devasthana",
+        "kovil",
+        "kshetram",
+        "mandir",
+        "shrine",
+        "temple"
+    ],
+    "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+    },
+    "reference": {
+        "key": "amenity",
+        "value": "place_of_worship"
+    },
+    "name": "Hindu Temple"
+}

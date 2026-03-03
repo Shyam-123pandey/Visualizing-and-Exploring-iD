@@ -1,0 +1,23 @@
+{
+    "icon": "maki-lodging",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "bed"
+    },
+    "terms": [
+        "bed",
+        "duvet",
+        "mattress",
+        "pillow"
+    ],
+    "name": "Bedding / Mattress Store"
+}

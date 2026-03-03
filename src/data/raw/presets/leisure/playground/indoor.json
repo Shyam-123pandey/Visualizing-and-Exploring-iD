@@ -1,0 +1,25 @@
+{
+    "icon": "maki-playground",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "terms": [
+        "ball pit",
+        "indoor play area",
+        "inside playground",
+        "play pen",
+        "play pit"
+    ],
+    "fields": [
+        "{leisure/playground}"
+    ],
+    "moreFields": [
+        "{leisure/playground}"
+    ],
+    "tags": {
+        "leisure": "playground",
+        "indoor": "yes"
+    },
+    "name": "Indoor Playground"
+}

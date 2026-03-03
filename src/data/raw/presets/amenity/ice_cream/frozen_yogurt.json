@@ -1,0 +1,30 @@
+{
+    "icon": "maki-ice-cream",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "frogurt",
+        "froyo",
+        "frozen yoghurt",
+        "ice cream",
+        "yoghurt",
+        "yogurt"
+    ],
+    "fields": [
+        "{amenity/ice_cream}"
+    ],
+    "moreFields": [
+        "{amenity/ice_cream}"
+    ],
+    "tags": {
+        "amenity": "ice_cream",
+        "cuisine": "frozen_yogurt"
+    },
+    "reference": {
+        "key": "cuisine",
+        "value": "frozen_yogurt"
+    },
+    "name": "Frozen Yogurt Shop"
+}

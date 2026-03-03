@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-balloon",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "balloons",
+        "costumes",
+        "decorations",
+        "invitations"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "party"
+    },
+    "name": "Party Supply Store"
+}

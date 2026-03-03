@@ -1,0 +1,33 @@
+{
+    "icon": "roentgen-i_in_square",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{leisure/fitness_station}"
+    ],
+    "moreFields": [
+        "{leisure/fitness_station}"
+    ],
+    "tags": {
+        "leisure": "fitness_station",
+        "fitness_station": "sign"
+    },
+    "addTags": {
+        "leisure": "fitness_station",
+        "fitness_station": "sign",
+        "sport": "fitness"
+    },
+    "reference": {
+        "key": "leisure",
+        "value": "fitness_station"
+    },
+    "terms": [
+        "exercise",
+        "fitness",
+        "gym",
+        "trim trail"
+    ],
+    "name": "Exercise Instruction Sign"
+}

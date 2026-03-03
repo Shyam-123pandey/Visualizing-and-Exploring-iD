@@ -1,0 +1,43 @@
+{
+    "icon": "fas-pepper-hot",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "bar",
+        "breakfast",
+        "burritos",
+        "dine",
+        "dining",
+        "dinner",
+        "drive-in",
+        "eat",
+        "enchiladas",
+        "fajitas",
+        "grill",
+        "lunch",
+        "nachos",
+        "quesadillas",
+        "salsa",
+        "table",
+        "tacos",
+        "tamales",
+        "tortillas"
+    ],
+    "fields": [
+        "{amenity/restaurant}"
+    ],
+    "moreFields": [
+        "{amenity/restaurant}"
+    ],
+    "tags": {
+        "amenity": "restaurant",
+        "cuisine": "mexican"
+    },
+    "reference": {
+        "key": "cuisine",
+        "value": "mexican"
+    },
+    "name": "Mexican Restaurant"
+}

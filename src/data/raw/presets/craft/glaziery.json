@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-window",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "glass",
+        "stained-glass",
+        "window"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "glaziery"
+    },
+    "name": "Glaziery"
+}

@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-town_hall",
+    "fields": [
+        "name",
+        "government",
+        "{office}"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "office": "government"
+    },
+    "terms": [
+        "official",
+        "public office"
+    ],
+    "name": "Government Office"
+}

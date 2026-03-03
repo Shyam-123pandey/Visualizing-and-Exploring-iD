@@ -1,0 +1,21 @@
+{
+    "icon": "maki-home",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "bungalow"
+    },
+    "terms": [
+        "detached",
+        "home"
+    ],
+    "matchScore": 0.5,
+    "name": "Bungalow"
+}

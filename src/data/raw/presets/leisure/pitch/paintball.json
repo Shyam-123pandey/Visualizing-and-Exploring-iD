@@ -1,0 +1,22 @@
+{
+    "icon": "fas-crosshairs",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "fields": [
+        "{leisure/pitch}"
+    ],
+    "moreFields": [
+        "{leisure/pitch}"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "paintball"
+    },
+    "reference": {
+        "key": "sport",
+        "value": "paintball"
+    },
+    "name": "Paintball Field"
+}

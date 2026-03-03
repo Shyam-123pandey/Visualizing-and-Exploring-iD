@@ -1,0 +1,16 @@
+{
+    "icon": "temaki-sledding",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "sledding"
+    },
+    "name": "Play Sledding Hill"
+}

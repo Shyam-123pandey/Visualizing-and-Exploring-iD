@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-desk_lamp",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "fluorescent lighting",
+        "lamps",
+        "leds",
+        "light fixtures",
+        "lightbulbs"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "lighting"
+    },
+    "name": "Lighting Store"
+}

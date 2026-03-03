@@ -1,0 +1,31 @@
+{
+    "locationSet": {
+        "exclude": [
+            "de"
+        ]
+    },
+    "icon": "temaki-toll_gantry",
+    "fields": [
+        "ref",
+        "operator",
+        "access",
+        "maxheight",
+        "opening_hours",
+        "payment_multi"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "highway": "toll_gantry"
+    },
+    "terms": [
+        "cashless toll",
+        "electronic toll",
+        "free-flow toll",
+        "license plate camera toll",
+        "toll gantry",
+        "transponder toll"
+    ],
+    "name": "Open Road Toll"
+}

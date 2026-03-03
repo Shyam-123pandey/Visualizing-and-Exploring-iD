@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-tools",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "tool_hire"
+    },
+    "name": "Tool Rental"
+}

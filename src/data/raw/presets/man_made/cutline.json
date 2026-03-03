@@ -1,0 +1,16 @@
+{
+    "icon": "maki-logging",
+    "geometry": [
+        "line"
+    ],
+    "fields": [
+        "{man_made}"
+    ],
+    "moreFields": [
+        "{man_made}"
+    ],
+    "tags": {
+        "man_made": "cutline"
+    },
+    "name": "Cut line"
+}

@@ -1,0 +1,26 @@
+{
+    "icon": "fas-tractor",
+    "fields": [
+        "{shop}",
+        "agrarian"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "agricultural inputs",
+        "agricultural machines",
+        "agricultural tools",
+        "fertilizer",
+        "pesticides",
+        "seeds"
+    ],
+    "tags": {
+        "shop": "agrarian"
+    },
+    "name": "Farm Supply Shop"
+}

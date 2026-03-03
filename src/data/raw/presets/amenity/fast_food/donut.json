@@ -1,0 +1,37 @@
+{
+    "icon": "temaki-donut",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "breakfast",
+        "brunch",
+        "cafe",
+        "canteen",
+        "coffee",
+        "dine",
+        "diner",
+        "dining",
+        "donut",
+        "doughnut",
+        "eat",
+        "lunch",
+        "table"
+    ],
+    "fields": [
+        "{amenity/fast_food}"
+    ],
+    "moreFields": [
+        "{amenity/fast_food}"
+    ],
+    "tags": {
+        "amenity": "fast_food",
+        "cuisine": "donut"
+    },
+    "reference": {
+        "key": "cuisine",
+        "value": "donut"
+    },
+    "name": "Donut Fast Food"
+}

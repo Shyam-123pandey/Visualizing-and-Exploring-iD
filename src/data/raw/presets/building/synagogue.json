@@ -1,0 +1,17 @@
+{
+    "icon": "fas-synagogue",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "synagogue"
+    },
+    "matchScore": 0.5,
+    "name": "Synagogue Building"
+}

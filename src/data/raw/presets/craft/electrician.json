@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-power",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "power",
+        "wire"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "electrician"
+    },
+    "name": "Electrician"
+}

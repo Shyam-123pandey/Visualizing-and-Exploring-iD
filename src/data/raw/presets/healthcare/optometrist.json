@@ -1,0 +1,24 @@
+{
+    "icon": "fas-eye",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "eye",
+        "glasses",
+        "lasik",
+        "lenses",
+        "vision"
+    ],
+    "fields": [
+        "{healthcare}"
+    ],
+    "moreFields": [
+        "{healthcare}"
+    ],
+    "tags": {
+        "healthcare": "optometrist"
+    },
+    "name": "Optometrist"
+}

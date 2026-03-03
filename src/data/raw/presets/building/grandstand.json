@@ -1,0 +1,23 @@
+{
+    "icon": "maki-building",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "grandstand"
+    },
+    "terms": [
+        "bleachers",
+        "stand",
+        "stands",
+        "tribune"
+    ],
+    "matchScore": 0.5,
+    "name": "Grandstand"
+}

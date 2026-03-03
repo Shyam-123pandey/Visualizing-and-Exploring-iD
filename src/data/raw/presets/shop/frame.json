@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-portrait_framed",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "frame"
+    },
+    "terms": [
+        "art",
+        "frame",
+        "painting",
+        "photograph"
+    ],
+    "name": "Framing Shop"
+}

@@ -1,0 +1,22 @@
+{
+    "icon": "maki-playground",
+    "geometry": [
+        "line",
+        "area"
+    ],
+    "fields": [
+        "{playground}"
+    ],
+    "moreFields": [
+        "{playground}"
+    ],
+    "tags": {
+        "playground": "zipwire"
+    },
+    "terms": [
+        "zip wire",
+        "zipline",
+        "zipwire"
+    ],
+    "name": "Play Zip Line"
+}

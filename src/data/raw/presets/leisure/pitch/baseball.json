@@ -1,0 +1,26 @@
+{
+    "icon": "maki-baseball",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "fields": [
+        "{leisure/pitch}"
+    ],
+    "moreFields": [
+        "{leisure/pitch}"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "baseball"
+    },
+    "reference": {
+        "key": "sport",
+        "value": "baseball"
+    },
+    "terms": [
+        "diamond",
+        "softball"
+    ],
+    "name": "Baseball Field"
+}

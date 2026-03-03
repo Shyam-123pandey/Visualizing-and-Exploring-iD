@@ -1,0 +1,21 @@
+{
+    "icon": "maki-roadblock",
+    "fields": [
+        "access"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "geometry": [
+        "vertex",
+        "point",
+        "line"
+    ],
+    "tags": {
+        "barrier": "log"
+    },
+    "terms": [
+        "downed tree"
+    ],
+    "name": "Fallen Tree Obstruction"
+}

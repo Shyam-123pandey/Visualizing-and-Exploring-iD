@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-hammer_shoe",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "cobbler"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "shoemaker"
+    },
+    "name": "Shoemaker"
+}

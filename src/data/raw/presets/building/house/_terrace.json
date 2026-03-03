@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-row_houses",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "house",
+        "{building}"
+    ],
+    "moreFields": [
+        "{building/house}"
+    ],
+    "tags": {
+        "building": "house",
+        "house": "terrace"
+    },
+    "reference": {
+        "key": "house",
+        "value": "terrace"
+    },
+    "matchScore": 0.5,
+    "name": "{building/terrace}",
+    "searchable": false
+}

@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-vase",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "ceramic",
+        "kiln",
+        "pot",
+        "vase"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "pottery"
+    },
+    "name": "Pottery Maker"
+}

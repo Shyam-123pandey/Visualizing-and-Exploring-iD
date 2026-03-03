@@ -1,0 +1,29 @@
+{
+    "icon": "fas-chess-pawn",
+    "geometry": [
+        "point"
+    ],
+    "fields": [
+        "{leisure/picnic_table}"
+    ],
+    "moreFields": [
+        "{leisure/picnic_table}"
+    ],
+    "tags": {
+        "leisure": "picnic_table",
+        "sport": "chess"
+    },
+    "reference": {
+        "key": "sport",
+        "value": "chess"
+    },
+    "terms": [
+        "bench",
+        "checkerboard",
+        "checkers",
+        "chequerboard",
+        "chess board",
+        "game table"
+    ],
+    "name": "Chess Table"
+}

@@ -1,0 +1,45 @@
+{
+    "icon": "maki-recycling",
+    "fields": [
+        "operator",
+        "recycling_accepts",
+        "opening_hours",
+        "collection_times"
+    ],
+    "moreFields": [
+        "colour",
+        "covered",
+        "indoor",
+        "level",
+        "manufacturer",
+        "material",
+        "ref"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "bin",
+        "bottle",
+        "can",
+        "garbage",
+        "glass",
+        "recycle",
+        "rubbish",
+        "scrap",
+        "trash"
+    ],
+    "tags": {
+        "amenity": "recycling",
+        "recycling_type": "container"
+    },
+    "reference": {
+        "key": "recycling_type",
+        "value": "container"
+    },
+    "aliases": [
+        "Recycling Container"
+    ],
+    "name": "Recycling Bin"
+}

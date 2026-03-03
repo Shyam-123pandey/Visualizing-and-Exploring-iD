@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-school",
+    "fields": [
+        "name",
+        "operator"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "campus",
+        "educational campus",
+        "educational facilities",
+        "school campus",
+        "school center",
+        "school grounds"
+    ],
+    "tags": {
+        "landuse": "education"
+    },
+    "matchScore": 0.9,
+    "name": "Educational Area"
+}

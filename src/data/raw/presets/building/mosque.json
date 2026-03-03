@@ -1,0 +1,17 @@
+{
+    "icon": "fas-mosque",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "mosque"
+    },
+    "matchScore": 0.5,
+    "name": "Mosque Building"
+}

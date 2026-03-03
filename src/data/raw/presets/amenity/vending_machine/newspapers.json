@@ -1,0 +1,31 @@
+{
+    "icon": "temaki-vending_newspaper",
+    "fields": [
+        "vending",
+        "ref",
+        "operator",
+        "fee",
+        "payment_multi_fee",
+        "charge_fee",
+        "currency_multi"
+    ],
+    "moreFields": [
+        "{amenity/vending_machine}"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "newspaper"
+    ],
+    "tags": {
+        "amenity": "vending_machine",
+        "vending": "newspapers"
+    },
+    "reference": {
+        "key": "vending",
+        "value": "newspapers"
+    },
+    "name": "Newspaper Vending Machine"
+}

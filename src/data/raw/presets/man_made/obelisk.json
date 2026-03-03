@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-obelisk",
+    "fields": [
+        "name",
+        "inscription",
+        "height",
+        "material",
+        "colour"
+    ],
+    "moreFields": [
+        "{man_made}"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "man_made": "obelisk"
+    },
+    "name": "Obelisk"
+}

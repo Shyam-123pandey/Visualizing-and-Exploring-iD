@@ -1,0 +1,20 @@
+{
+    "icon": "fas-hammer",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "woodworker"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "carpenter"
+    },
+    "name": "Carpenter"
+}

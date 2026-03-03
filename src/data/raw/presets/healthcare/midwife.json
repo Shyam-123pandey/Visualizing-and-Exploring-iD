@@ -1,0 +1,25 @@
+{
+    "icon": "fas-baby",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "baby",
+        "childbirth",
+        "delivery",
+        "labor",
+        "labour",
+        "pregnancy"
+    ],
+    "fields": [
+        "{healthcare}"
+    ],
+    "moreFields": [
+        "{healthcare}"
+    ],
+    "tags": {
+        "healthcare": "midwife"
+    },
+    "name": "Midwife"
+}

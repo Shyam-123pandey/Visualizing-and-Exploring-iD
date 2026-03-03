@@ -1,0 +1,16 @@
+{
+    "icon": "maki-entrance-alt1",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "{entrance}"
+    ],
+    "tags": {
+        "entrance": "main"
+    },
+    "terms": [
+        "door"
+    ],
+    "name": "Main Entrance"
+}

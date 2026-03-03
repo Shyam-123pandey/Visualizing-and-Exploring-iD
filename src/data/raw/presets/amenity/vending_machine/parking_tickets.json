@@ -1,0 +1,30 @@
+{
+    "icon": "temaki-vending_tickets",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "parking",
+        "ticket"
+    ],
+    "fields": [
+        "{amenity/vending_machine}"
+    ],
+    "moreFields": [
+        "{amenity/vending_machine}"
+    ],
+    "tags": {
+        "amenity": "vending_machine",
+        "vending": "parking_tickets"
+    },
+    "reference": {
+        "key": "vending",
+        "value": "parking_tickets"
+    },
+    "matchScore": 0.94,
+    "name": "Parking Ticket Vending Machine",
+    "aliases": [
+        "Parking Meter"
+    ]
+}

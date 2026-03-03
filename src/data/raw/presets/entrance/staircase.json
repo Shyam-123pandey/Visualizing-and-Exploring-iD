@@ -1,0 +1,19 @@
+{
+    "icon": "maki-entrance-alt1",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [
+        "{entrance}"
+    ],
+    "tags": {
+        "entrance": "staircase"
+    },
+    "terms": [
+        "door",
+        "stairs",
+        "stairway",
+        "stairwell"
+    ],
+    "name": "Staircase Entrance"
+}

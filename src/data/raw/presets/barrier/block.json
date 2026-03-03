@@ -1,0 +1,18 @@
+{
+    "icon": "fas-cube",
+    "fields": [
+        "access",
+        "material"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "barrier": "block"
+    },
+    "name": "Block"
+}

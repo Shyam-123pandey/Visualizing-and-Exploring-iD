@@ -1,0 +1,22 @@
+{
+    "icon": "maki-shop",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "porn",
+        "sex"
+    ],
+    "fields": [
+        "{shop/erotic}"
+    ],
+    "moreFields": [
+        "{shop/erotic}"
+    ],
+    "tags": {
+        "shop": "erotic",
+        "lgbtq": "primary"
+    },
+    "name": "LGBTQ+ Erotic Store"
+}

@@ -1,0 +1,26 @@
+{
+    "icon": "fas-skiing-nordic",
+    "fields": [
+        "name",
+        "piste/type",
+        "piste/difficulty_skitour",
+        "piste/grooming",
+        "oneway",
+        "lit"
+    ],
+    "geometry": [
+        "line",
+        "area"
+    ],
+    "tags": {
+        "piste:type": "skitour"
+    },
+    "terms": [
+        "crosscountry",
+        "piste",
+        "ski",
+        "ski touring",
+        "skitour"
+    ],
+    "name": "Ski Touring Trail"
+}

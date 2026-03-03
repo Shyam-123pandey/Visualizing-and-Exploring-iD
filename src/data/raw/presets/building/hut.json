@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-hut",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "hut"
+    },
+    "matchScore": 0.5,
+    "name": "Hut"
+}

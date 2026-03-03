@@ -1,0 +1,23 @@
+{
+    "icon": "maki-pitch",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "fields": [
+        "{leisure/pitch/athletics}"
+    ],
+    "moreFields": [
+        "{leisure/pitch/athletics}"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "athletics",
+        "athletics": "pole_vault"
+    },
+    "reference": {
+        "key": "athletics",
+        "value": "pole_vault"
+    },
+    "name": "Pole Vault Pit"
+}

@@ -1,0 +1,31 @@
+{
+    "icon": "temaki-drink_cup",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "beverages",
+        "cafe",
+        "café",
+        "fruit drinks",
+        "juice bar",
+        "shakes",
+        "smoothies"
+    ],
+    "fields": [
+        "{amenity/fast_food}"
+    ],
+    "moreFields": [
+        "{amenity/fast_food}"
+    ],
+    "tags": {
+        "amenity": "fast_food",
+        "cuisine": "juice"
+    },
+    "reference": {
+        "key": "cuisine",
+        "value": "juice"
+    },
+    "name": "Juice Fast Food"
+}

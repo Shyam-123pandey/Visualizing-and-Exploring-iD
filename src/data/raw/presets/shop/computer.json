@@ -1,0 +1,24 @@
+{
+    "icon": "fas-laptop",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "computer"
+    },
+    "terms": [
+        "desktop",
+        "hardware",
+        "laptop",
+        "operating system",
+        "software"
+    ],
+    "name": "Computer Store"
+}

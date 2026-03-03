@@ -1,0 +1,33 @@
+{
+    "icon": "iD-waterway-canal",
+    "fields": [
+        "name",
+        "structure_canal",
+        "tunnel/name",
+        "width",
+        "usage_waterway",
+        "intermittent",
+        "lock"
+    ],
+    "moreFields": [
+        "bridge/name",
+        "fishing",
+        "gnis/feature_id-US",
+        "salt",
+        "tidal"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "waterway": "canal"
+    },
+    "terms": [
+        "headrace",
+        "irrigation",
+        "spillway",
+        "tailrace",
+        "waterpower"
+    ],
+    "name": "Canal"
+}

@@ -1,0 +1,31 @@
+{
+    "icon": "temaki-plaque",
+    "fields": [
+        "{historic/memorial}",
+        "direction"
+    ],
+    "moreFields": [
+        "{historic/memorial}"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "dedicatory",
+        "epitaph",
+        "historical marker",
+        "memory",
+        "remember",
+        "remembrance"
+    ],
+    "tags": {
+        "historic": "memorial",
+        "memorial": "plaque"
+    },
+    "reference": {
+        "key": "memorial",
+        "value": "plaque"
+    },
+    "name": "Commemorative Plaque"
+}

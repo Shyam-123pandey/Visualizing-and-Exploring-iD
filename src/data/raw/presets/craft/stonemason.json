@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-brick_trowel",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "masonry"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "stonemason"
+    },
+    "name": "Stonemason"
+}

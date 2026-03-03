@@ -1,0 +1,20 @@
+{
+    "icon": "fas-hammer",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "joiner"
+    },
+    "terms": [
+        "furniture"
+    ],
+    "name": "Joiner"
+}

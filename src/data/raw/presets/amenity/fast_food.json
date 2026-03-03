@@ -1,0 +1,52 @@
+{
+    "icon": "maki-fast-food",
+    "fields": [
+        "name",
+        "cuisine",
+        "diet_multi",
+        "operator",
+        "address",
+        "building_area_yes",
+        "opening_hours",
+        "drive_through",
+        "opening_hours/drive_through",
+        "phone",
+        "website"
+    ],
+    "moreFields": [
+        "{@templates/internet_access}",
+        "{@templates/poi}",
+        "air_conditioning",
+        "branch_brand",
+        "brand",
+        "capacity",
+        "changing_table",
+        "delivery",
+        "highchair",
+        "organic",
+        "outdoor_seating",
+        "smoking",
+        "stroller",
+        "takeaway",
+        "toilets",
+        "toilets/wheelchair",
+        "toilets/menstrual_products_poi",
+        "fhrs/id-GB",
+        "website/menu"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "amenity": "fast_food"
+    },
+    "terms": [
+        "drive thru",
+        "drive-through",
+        "restaurant",
+        "takeaway",
+        "takeout"
+    ],
+    "name": "Fast Food"
+}

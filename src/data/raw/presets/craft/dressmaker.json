@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-dress",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "seamstress"
+    ],
+    "fields": [
+        "{craft}"
+    ],
+    "moreFields": [
+        "{craft}"
+    ],
+    "tags": {
+        "craft": "dressmaker"
+    },
+    "name": "Dressmaker"
+}

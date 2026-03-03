@@ -1,0 +1,26 @@
+{
+    "icon": "maki-tennis",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "fields": [
+        "{leisure/pitch}"
+    ],
+    "moreFields": [
+        "{leisure/pitch}"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "padel"
+    },
+    "reference": {
+        "key": "sport",
+        "value": "padel"
+    },
+    "terms": [
+        "paddle",
+        "tennis"
+    ],
+    "name": "Padel Court"
+}

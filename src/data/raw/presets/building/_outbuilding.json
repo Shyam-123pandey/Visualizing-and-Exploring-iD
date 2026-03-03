@@ -1,0 +1,18 @@
+{
+    "icon": "maki-building",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "{building}"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "tags": {
+        "building": "outbuilding"
+    },
+    "matchScore": 0.5,
+    "name": "Outbuilding",
+    "searchable": false
+}

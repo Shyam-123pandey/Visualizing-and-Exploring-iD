@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-quay",
+    "fields": [
+        "name",
+        "mooring"
+    ],
+    "moreFields": [
+        "{man_made}"
+    ],
+    "geometry": [
+        "line",
+        "area"
+    ],
+    "terms": [
+        "dock",
+        "wharf"
+    ],
+    "tags": {
+        "man_made": "quay"
+    },
+    "name": "Quay"
+}

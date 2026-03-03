@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-buoy",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "terms": [
+        "buoy lateral",
+        "cevni",
+        "channel marker",
+        "iala",
+        "lateral buoy",
+        "lateral mark"
+    ],
+    "fields": [
+        "{seamark/buoy_lateral}"
+    ],
+    "tags": {
+        "seamark:type": "buoy_lateral",
+        "seamark:buoy_lateral:colour": "red"
+    },
+    "name": "Red Buoy"
+}

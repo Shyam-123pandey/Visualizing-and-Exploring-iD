@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-wall",
+    "fields": [
+        "wall",
+        "height",
+        "material"
+    ],
+    "moreFields": [
+        "{barrier}"
+    ],
+    "geometry": [
+        "line",
+        "area"
+    ],
+    "tags": {
+        "barrier": "wall"
+    },
+    "name": "Wall",
+    "matchScore": 0.25
+}

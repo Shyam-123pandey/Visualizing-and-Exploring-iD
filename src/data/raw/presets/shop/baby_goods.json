@@ -1,0 +1,22 @@
+{
+    "icon": "fas-baby-carriage",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "baby_goods"
+    },
+    "name": "Baby Goods Store",
+    "terms": [
+        "infant",
+        "newborn",
+        "toddler"
+    ]
+}

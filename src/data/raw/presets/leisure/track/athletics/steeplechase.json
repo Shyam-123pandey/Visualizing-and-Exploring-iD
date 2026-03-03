@@ -1,0 +1,27 @@
+{
+    "icon": "fas-running",
+    "geometry": [
+        "point",
+        "line",
+        "area"
+    ],
+    "fields": [
+        "{leisure/track/athletics}"
+    ],
+    "moreFields": [
+        "{leisure/track/athletics}"
+    ],
+    "tags": {
+        "leisure": "track",
+        "sport": "athletics",
+        "athletics": "steeplechase"
+    },
+    "terms": [
+        "steeplechase track"
+    ],
+    "reference": {
+        "key": "athletics",
+        "value": "steeplechase"
+    },
+    "name": "Steeplechase Runway"
+}

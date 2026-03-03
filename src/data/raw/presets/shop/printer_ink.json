@@ -1,0 +1,23 @@
+{
+    "icon": "fas-print",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "copier ink",
+        "fax ink",
+        "ink cartridges",
+        "toner"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "printer_ink"
+    },
+    "name": "Printer Ink Store"
+}

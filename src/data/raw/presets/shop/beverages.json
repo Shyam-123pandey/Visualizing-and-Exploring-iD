@@ -1,0 +1,20 @@
+{
+    "icon": "temaki-bottles",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "beverages"
+    },
+    "terms": [
+        "drinks"
+    ],
+    "name": "Beverage Store"
+}

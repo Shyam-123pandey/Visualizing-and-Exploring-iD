@@ -1,0 +1,29 @@
+{
+    "icon": "temaki-railway_track",
+    "fields": [
+        "{railway/light_rail}"
+    ],
+    "moreFields": [
+        "{railway/light_rail}",
+        "highspeed",
+        "ref_rail"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "railway": "rail"
+    },
+    "terms": [
+        "permanent way",
+        "rail",
+        "rail line",
+        "track",
+        "train track"
+    ],
+    "name": "Train Track",
+    "aliases": [
+        "Railway Track",
+        "Railroad Track"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "icon": "maki-waste-basket",
+    "fields": [
+        "collection_times"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "amenity": "waste_basket",
+        "waste": "dog_excrement"
+    },
+    "reference": {
+        "key": "waste",
+        "value": "dog_excrement"
+    },
+    "terms": [
+        "bin",
+        "dog",
+        "garbage",
+        "litter",
+        "poo",
+        "rubbish",
+        "trash"
+    ],
+    "name": "Dog Excrement Bin"
+}

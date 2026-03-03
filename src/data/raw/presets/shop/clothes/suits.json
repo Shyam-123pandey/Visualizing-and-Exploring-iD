@@ -1,0 +1,23 @@
+{
+    "icon": "fas-tshirt",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop/clothes}"
+    ],
+    "moreFields": [
+        "{shop/clothes}"
+    ],
+    "tags": {
+        "shop": "clothes",
+        "clothes": "suits"
+    },
+    "terms": [
+        "businessman",
+        "necktie",
+        "tie"
+    ],
+    "name": "Suits Store"
+}

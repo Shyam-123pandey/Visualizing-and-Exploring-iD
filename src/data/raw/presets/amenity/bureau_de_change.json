@@ -1,0 +1,29 @@
+{
+    "icon": "temaki-money_hand",
+    "fields": [
+        "name",
+        "operator",
+        "payment_multi",
+        "currency_multi",
+        "address",
+        "building_area"
+    ],
+    "moreFields": [
+        "{@templates/poi}"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "foreign exchange",
+        "money changer"
+    ],
+    "tags": {
+        "amenity": "bureau_de_change"
+    },
+    "name": "Currency Exchange",
+    "aliases": [
+        "Bureau de Change"
+    ]
+}

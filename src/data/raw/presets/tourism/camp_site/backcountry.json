@@ -1,0 +1,34 @@
+{
+    "icon": "maki-campsite",
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "fields": [
+        "{tourism/camp_site}"
+    ],
+    "moreFields": [
+        "{tourism/camp_site}"
+    ],
+    "tags": {
+        "tourism": "camp_site",
+        "backcountry": "yes"
+    },
+    "reference": {
+        "key": "backcountry"
+    },
+    "terms": [
+        "alpine camping",
+        "backpacking site",
+        "backwoods camping",
+        "camp ground",
+        "camp pitch",
+        "camp site",
+        "campground",
+        "campsite",
+        "informal camping",
+        "primitive camping"
+    ],
+    "name": "Backcountry Camping Area"
+}

@@ -1,0 +1,22 @@
+{
+    "icon": "fas-rocket",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "toys"
+    },
+    "terms": [
+        "games",
+        "hobby",
+        "teddy"
+    ],
+    "name": "Toy Store"
+}

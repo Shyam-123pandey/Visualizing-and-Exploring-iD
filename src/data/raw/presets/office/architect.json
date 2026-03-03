@@ -1,0 +1,21 @@
+{
+    "icon": "fas-drafting-compass",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{office}"
+    ],
+    "moreFields": [
+        "{office}"
+    ],
+    "tags": {
+        "office": "architect"
+    },
+    "terms": [
+        "architecture",
+        "landscape design"
+    ],
+    "name": "Architect Office"
+}

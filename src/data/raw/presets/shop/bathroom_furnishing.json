@@ -1,0 +1,17 @@
+{
+    "icon": "fas-bath",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "{shop}"
+    ],
+    "moreFields": [
+        "{shop}"
+    ],
+    "tags": {
+        "shop": "bathroom_furnishing"
+    },
+    "name": "Bathroom Furnishing Store"
+}

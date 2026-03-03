@@ -1,0 +1,34 @@
+{
+    "icon": "maki-doctor",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "cardiac surgeon",
+        "cardiology",
+        "cardiovascular system",
+        "coronary artery",
+        "heart"
+    ],
+    "fields": [
+        "{amenity/doctors}"
+    ],
+    "moreFields": [
+        "{amenity/doctors}"
+    ],
+    "tags": {
+        "amenity": "doctors",
+        "healthcare:speciality": "cardiology"
+    },
+    "addTags": {
+        "amenity": "doctors",
+        "healthcare:speciality": "cardiology",
+        "healthcare": "doctor"
+    },
+    "reference": {
+        "key": "healthcare:speciality",
+        "value": "cardiology"
+    },
+    "name": "Cardiologist"
+}

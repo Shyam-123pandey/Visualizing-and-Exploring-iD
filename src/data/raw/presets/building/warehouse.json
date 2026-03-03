@@ -1,0 +1,18 @@
+{
+    "icon": "maki-warehouse",
+    "fields": [
+        "{building}",
+        "phone"
+    ],
+    "moreFields": [
+        "{building}"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "building": "warehouse"
+    },
+    "matchScore": 0.5,
+    "name": "Warehouse"
+}

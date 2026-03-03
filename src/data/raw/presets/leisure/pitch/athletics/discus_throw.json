@@ -1,0 +1,27 @@
+{
+    "icon": "maki-pitch",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "fields": [
+        "{leisure/pitch/athletics}"
+    ],
+    "moreFields": [
+        "{leisure/pitch/athletics}"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "athletics",
+        "athletics": "discus_throw"
+    },
+    "reference": {
+        "key": "athletics",
+        "value": "discus_throw"
+    },
+    "aliases": [
+        "Discus Ring",
+        "Discus Sector"
+    ],
+    "name": "Discus Ring / Sector"
+}

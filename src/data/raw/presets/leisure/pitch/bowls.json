@@ -1,0 +1,22 @@
+{
+    "icon": "maki-pitch",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "fields": [
+        "{leisure/pitch}"
+    ],
+    "moreFields": [
+        "{leisure/pitch}"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "bowls"
+    },
+    "reference": {
+        "key": "sport",
+        "value": "bowls"
+    },
+    "name": "Bowling Green"
+}
