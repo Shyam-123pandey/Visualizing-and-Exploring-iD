@@ -1,28 +1,63 @@
-import type { Preset } from "../loader/schemaTypes";
+// resolvePreset.ts
+import type{ SchemaData } from '../loader/schemaTypes'
+import type{ ResolvedPreset } from '../../types/presets'
+import { checkCycle } from './cycleDetection'
+import { mergeArraysUnique, mergeTags } from './mergeStrategy'
+
+function extractReference(field: string): string | null {
+  if (field.startsWith('{') && field.endsWith('}')) {
+    return field.slice(1, -1)
+  }
+  return null
+}
 
 export function resolvePreset(
   id: string,
-  presetMap: Map<string, Preset>,
-  visited = new Set<string>()
-): Preset {
+  schema: SchemaData,
+  stack: string[] = []
+): ResolvedPreset {
 
-  if (visited.has(id)) {
-    throw new Error("Circular inheritance detected");
+  checkCycle(stack, id)
+
+  const raw = schema.presets[id]
+  if (!raw) {
+    throw new Error(`Preset not found: ${id}`)
   }
 
-  visited.add(id);
+  const newStack = [...stack, id]
 
-  const preset = presetMap.get(id);
-  if (!preset) throw new Error("Preset not found");
+  let resolvedFields: string[] = []
+  let inheritedFrom: string[] = []
 
-  if (!preset.extends) return preset;
+  // Resolve normal fields
+  const allFields = [
+    ...(raw.fields || []),
+    ...(raw.moreFields || [])
+  ]
 
-  const parent = resolvePreset(preset.extends, presetMap, visited);
+  for (const field of allFields) {
+    const ref = extractReference(field)
+
+    if (ref) {
+      const resolvedRef = resolvePreset(ref, schema, newStack)
+
+      resolvedFields = mergeArraysUnique(
+        resolvedFields,
+        resolvedRef.fields
+      )
+
+      inheritedFrom.push(ref)
+
+    } else {
+      resolvedFields.push(field)
+    }
+  }
 
   return {
-    ...parent,
-    ...preset,
-    tags: { ...parent.tags, ...preset.tags },
-    fields: [...(parent.fields || []), ...(preset.fields || [])]
-  };
+    id,
+    fields: Array.from(new Set(resolvedFields)),
+    tags: raw.tags || {},
+    geometry: raw.geometry || [],
+    inheritedFrom
+  }
 }
