@@ -10,12 +10,12 @@ export function buildGraph(schema: SchemaData) {
 
     const refs: string[] = []
 
-    const allFields = [
+    const allFields = [ //finding all the fields of a preset, including the moreFields
       ...(preset.fields || []),
       ...(preset.moreFields || [])
     ]
 
-    for (const field of allFields) {
+    for (const field of allFields) { // if the field is a reference to another preset, then we add it to the refs array
 
       if (field.startsWith("{") && field.endsWith("}")) {
         const ref = field.slice(1, -1)
