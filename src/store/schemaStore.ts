@@ -41,6 +41,7 @@ export const useSchemaStore = create<SchemaState>((set, get) => ({
     const engine = get().engine
 
     if (!engine) return
+      console.log("ENGINE READY", engine)
 
     const preset = engine.resolvePreset(id)
 

@@ -1,53 +1,44 @@
-import fs from 'fs'
-import path from 'path'
-import type{ RawPreset, RawField, SchemaData } from './schemaTypes'
-
-const PRESET_DIR = path.resolve(
-  __dirname,
-  '../../data/raw/presets'
-)
-
-const FIELD_DIR = path.resolve(
-  __dirname,
-  '../../data/raw/fields'
-)
-
-function readJSONFilesRecursively(
-  dir: string,
-  baseDir: string
-): Record<string, any> {
-  const result: Record<string, any> = {}
-
-  function walk(currentDir: string) {
-    const files = fs.readdirSync(currentDir)
-
-    for (const file of files) {
-      const fullPath = path.join(currentDir, file)
-      const stat = fs.statSync(fullPath)
-
-      if (stat.isDirectory()) {
-        walk(fullPath)
-      } else if (file.endsWith('.json')) {
-        const raw = fs.readFileSync(fullPath, 'utf-8')
-        const json = JSON.parse(raw)
-
-        const id = fullPath
-          .replace(baseDir + path.sep, '')
-          .replace('.json', '')
-          .replace(/\\/g, '/')
-
-        result[id] = json
-      }
-    }
-  }
-
-  walk(dir)
-  return result
-}
+import type{ SchemaData } from "./schemaTypes"
 
 export async function loadSchema(): Promise<SchemaData> {
-  const presets = readJSONFilesRecursively(PRESET_DIR, PRESET_DIR)
-  const fields = readJSONFilesRecursively(FIELD_DIR, FIELD_DIR)
 
-  return { presets, fields }
+  const presets: Record<string, any> = {}
+  const fields: Record<string, any> = {}
+
+  const files = import.meta.glob("/src/data/**/*.json", { eager: true })
+
+  for (const path in files) {
+
+    const file: any = files[path]
+
+    // Handle presets
+    if (path.includes("/presets/")) {
+
+      const id = path
+        .split("/presets/")[1]
+        .replace(".json", "")
+
+      presets[id] = file.default
+    }
+
+    // Handle fields
+    if (path.includes("/fields/")) {
+
+      const id = path
+        .split("/fields/")[1]
+        .replace(".json", "")
+
+      fields[id] = file.default
+    }
+
+  }
+
+  console.log("PRESETS LOADED:", Object.keys(presets).length)
+  console.log("FIELDS LOADED:", Object.keys(fields).length)
+
+  return {
+    presets,
+    fields
+  }
+
 }

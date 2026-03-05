@@ -1,17 +1,29 @@
-import { loadSchema } from "../core/loader/loadSchema";
-import { resolvePreset } from "../core/resolver/resolvePreset";
+import { useEffect } from "react"
+import SearchBar from "../components/SearchBar"
+import PresetList from "../components/PresetList"
+import { useSchemaStore } from "../store/schemaStore"
+import "./Styles.css"
 
-function App() {
-  const { presets } = loadSchema();
+export default function App() {
 
-  const resolved = resolvePreset("amenity/restaurant", presets);
+  const initialize = useSchemaStore(state => state.initialize)
+
+  useEffect(() => {
+    initialize()
+  }, [])
 
   return (
-    <div>
-      <h1 className="text-2xl font-bold">{resolved.id}</h1>
-      <pre className="m-4">{JSON.stringify(resolved, null, 2)}</pre>
-    </div>
-  );
-}
 
-export default App;
+    <div className="container">
+
+      <h1 className="title">iD Preset Visualizer</h1>
+
+      <SearchBar />
+
+      <PresetList />
+
+    </div>
+
+  )
+
+}
