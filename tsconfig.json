@@ -6,6 +6,6 @@
   ],
   "compilerOptions": {
   "moduleResolution": "node",
-  "types": ["vite/client", "jsdom", "node"]
+  "types": ["vite/client"]
 }
 }

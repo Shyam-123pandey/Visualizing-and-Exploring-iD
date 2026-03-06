@@ -33,8 +33,8 @@ export async function loadSchema(): Promise<SchemaData> {
 
   }
 
-  console.log("PRESETS LOADED:", Object.keys(presets).length)
-  console.log("FIELDS LOADED:", Object.keys(fields).length)
+  // console.log("PRESETS LOADED:", Object.keys(presets).length)
+  // console.log("FIELDS LOADED:", Object.keys(fields).length)
 
   return {
     presets,

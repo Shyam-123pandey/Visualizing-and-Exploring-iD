@@ -3,7 +3,6 @@ import { useSchemaStore } from "../store/schemaStore"
 export default function PresetList() {
   const results = useSchemaStore(state => state.searchResults)
   const selectPreset = useSchemaStore(state => state.selectPreset)
-
   if (!results.length) {
     return (
       <div className="results-container">

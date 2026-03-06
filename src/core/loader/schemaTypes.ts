@@ -7,6 +7,7 @@ export interface RawPreset {
   icon?: string;
   searchable?: boolean;
   locationSet?: any;
+  extends?: string;
 }
 
 export interface RawField {

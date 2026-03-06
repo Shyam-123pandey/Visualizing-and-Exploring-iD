@@ -407,3 +407,19 @@ body {
     padding: 1.5rem 1rem;
   }
 }
+
+.workspace {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.results-panel {
+  width: 40%;
+}
+
+.detail-panel {
+  flex: 1;
+  border-left: 1px solid #e5e7eb;
+  padding-left: 20px;
+}

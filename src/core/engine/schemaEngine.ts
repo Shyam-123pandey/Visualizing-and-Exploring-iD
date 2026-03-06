@@ -81,4 +81,21 @@ export class SchemaEngine {
 
   }
 
+  getParents(presetId: string) {
+  const resolved = this.resolvePreset(presetId)
+  return resolved.inheritedFrom || []
+}
+
+getChildren(presetId: string) {
+  const children: string[] = []
+
+  for (const [id, preset] of Object.entries(this.schema.presets)) {
+    if (preset.extends === presetId) {
+      children.push(id)
+    }
+  }
+
+  return children
+}
+
 }

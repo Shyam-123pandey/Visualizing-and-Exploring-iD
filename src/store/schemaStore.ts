@@ -1,69 +1,74 @@
-import { create } from "zustand"
-import { SchemaEngine } from "../core/engine/schemaEngine"
+import { create } from "zustand";
+import { SchemaEngine } from "../core/engine/schemaEngine";
+
 interface SchemaState {
-  engine: SchemaEngine | null
-  selectedPreset: string | null
-  resolvedPreset: any | null
-  searchResults: string[]
-  validationIssues: any[]
-  initialize: () => Promise<void>
-  selectPreset: (id: string) => void
-  search: (term: string) => void
+  engine: SchemaEngine | null;
+  selectedPreset: string | null;
+  resolvedPreset: any | null;
+  searchResults: string[];
+  validationIssues: any[];
+
+  dependencies: {
+    parents: string[];
+    children: string[];
+  } | null;
+
+  initialize: () => Promise<void>;
+  selectPreset: (id: string) => void;
+  search: (term: string) => void;
 }
 
 export const useSchemaStore = create<SchemaState>((set, get) => ({
-
   engine: null,
-
   selectedPreset: null,
-
   resolvedPreset: null,
-
   searchResults: [],
-
   validationIssues: [],
+  dependencies: null,
 
   async initialize() {
+    const engine = new SchemaEngine();
 
-    const engine = new SchemaEngine()
-
-    await engine.init()
+    await engine.init();
 
     set({
       engine,
-      validationIssues: engine.getValidationIssues()
-    })
-
+      validationIssues: engine.getValidationIssues(),
+    });
   },
 
   selectPreset(id: string) {
+    const engine = get().engine;
 
-    const engine = get().engine
+    if (!engine) return;
 
-    if (!engine) return
-      console.log("ENGINE READY", engine)
+    const preset = engine.resolvePreset(id);
 
-    const preset = engine.resolvePreset(id)
+    const parents = engine.getParents(id);
+    const children = engine.getChildren(id);
+
+      console.log("PARENTS:", parents)
+  console.log("CHILDREN:", children)
 
     set({
       selectedPreset: id,
-      resolvedPreset: preset
-    })
-
+      resolvedPreset: preset,
+      dependencies: {
+        parents,
+        children,
+      },
+    });
   },
 
   search(term: string) {
+    const engine = get().engine;
 
-    const engine = get().engine
+    if (!engine) return;
 
-    if (!engine) return
-
-    const results = engine.search(term)
+    const results = engine.search(term);
 
     set({
-      searchResults: results
-    })
-
-  }
-
-}))
+      searchResults: results,
+    });
+  },
+}));
