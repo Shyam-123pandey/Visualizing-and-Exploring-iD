@@ -1,19 +1,29 @@
-import { useSchemaStore } from "../store/schemaStore";
-import { v4 as uuid } from "uuid";
+import { useSchemaStore } from "../store/schemaStore"
 
 export default function PresetDetail() {
-  const preset = useSchemaStore((state) => state.resolvedPreset);
-  const presetId = useSchemaStore((state) => state.selectedPreset);
-  const deps = useSchemaStore((state) => state.dependencies);
+
+  const preset = useSchemaStore(state => state.resolvedPreset)
+  const presetId = useSchemaStore(state => state.selectedPreset)
+
+  const deps = useSchemaStore(state => state.dependencies)
+  const fieldUsage = useSchemaStore(state => state.fieldUsage)
+
+  const selectPreset = useSchemaStore(state => state.selectPreset)
 
   if (!preset) {
-    return <div style={{ padding: "20px" }}>Select a preset</div>;
+    return (
+      <div style={{ padding: "20px" }}>
+        <h3>Select a preset to inspect</h3>
+      </div>
+    )
   }
 
   return (
     <div style={{ padding: "20px" }}>
+
       <h2>{presetId}</h2>
 
+      {/* Geometry */}
       <h3>Geometry</h3>
       <ul>
         {preset.geometry?.map((g: string) => (
@@ -21,50 +31,101 @@ export default function PresetDetail() {
         ))}
       </ul>
 
+      {/* Tags */}
       <h3>Tags</h3>
       <ul>
         {Object.entries(preset.tags || {}).map(([k, v]) => (
-          <li key={uuid()}>
+          <li key={k}>
             {k} = {String(v)}
           </li>
         ))}
       </ul>
 
+      {/* Fields */}
       <h3>Fields</h3>
       <ul>
-        {preset.fields?.map((f: any, i: number) => (
-          <li key={uuid() }>{f.id || f.key || f}</li>
+        {preset.fields?.map((f: string) => (
+          <li style={{color: "#fff"}} key={f}>{f}</li>
         ))}
       </ul>
 
-      <h3>Inherited From</h3>
+      {/* Field Origins */}
+      <h3>Field Origins</h3>
       <ul>
-        {preset.inheritedFrom?.length ? (
-          preset.inheritedFrom.map((p: string, i: number) => (
-            <li key={uuid()}>{p}</li>
+        {Object.entries(preset.fieldOrigins || {}).map(([field, origin]) => (
+          <li key={field}>
+            {field} → {String(origin)}
+          </li>
+        ))}
+      </ul>
+
+      {/* Field Usage Inspector */}
+      <h3>Field Usage</h3>
+
+      {Object.entries(fieldUsage || {}).map(([field, presets]) => (
+
+        <div key={field} style={{ marginBottom: "15px" }}>
+
+          <strong>{field}</strong> → used by {presets.length} presets
+
+          <ul>
+
+            {presets.slice(0, 5).map((p) => (
+
+              <li
+                key={p}
+                style={{ cursor: "pointer", color: "#2563eb" }}
+                onClick={() => selectPreset(p)}
+              >
+                {p}
+
+              </li>
+
+            ))}
+
+          </ul>
+
+        </div>
+
+      ))}
+
+      {/* Dependencies */}
+      <h3>Dependencies</h3>
+
+      <h4>Parent Presets</h4>
+      <ul>
+        {deps?.parents?.length ? (
+          deps.parents.map((p, i) => (
+            <li
+              key={i}
+              style={{ cursor: "pointer", color: "#2563eb" }}
+              onClick={() => selectPreset(p)}
+            >
+              {p}
+            </li>
           ))
         ) : (
-          <li>No inheritance</li>
+          <li>No parent presets</li>
         )}
       </ul>
 
-      <h3>Parent Presets</h3>
+      <h4>Used By</h4>
       <ul>
-        {deps?.parents?.map((p) => (
-          <li key={uuid()}>{p}</li>
-        ))}
+        {deps?.children?.length ? (
+          deps.children.map((c, i) => (
+            <li
+              key={i}
+              style={{ cursor: "pointer", color: "#2563eb" }}
+              onClick={() => selectPreset(c)}
+            >
+              {c}
+            </li>
+          ))
+        ) : (
+          <li>No child presets</li>
+        )}
       </ul>
-      
-      { deps?.children && deps.children.length > 0 && (
-        <>
-          <h3>Used By</h3>
-          <ul>
-            {deps.children?.map((c) => (
-              <li key={uuid()}>{c}</li>
-            ))}
-          </ul>
-        </>
-      )}
+
     </div>
-  );
+  )
 }
